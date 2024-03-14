@@ -1,0 +1,30 @@
+hr {
+    border-width: 3px
+}
+
+.card {
+    padding: 2% 7%
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: black
+}
+
+.divider {
+    border-top: 2px solid
+}

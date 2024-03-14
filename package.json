@@ -1,0 +1,101 @@
+{
+  "name": "launchpad",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "server": "node ./api/bin/www",
+    "client": "react-app-rewired start",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "react-app-rewired  build",
+    "build:dev": "env-cmd -f .env.development npm run-script build",
+    "build:prod": "env-cmd -f .env.production npm run build-css && && react-scripts build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "pages:dev": "wrangler pages dev --compatibility-date=2024-01-17 --port 3000 -- npm start",
+    "pages:deploy": "npm run build && wrangler pages deploy ./build",
+    "update:browser-list": "npx browserslist@latest --update-db"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@ethersproject/providers": "^5.6.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.26",
+    "@types/react": "^17.0.43",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "axios": "1.6.5",
+    "bootstrap": "^5.1.3",
+    "caniuse": "^0.1.3",
+    "env-cmd": "^10.1.0",
+    "ethers": "^5.7.2",
+    "form-data": "4.0.0",
+    "graphql": "^16.8.1",
+    "graphql-request": "^4.2.0",
+    "mathjs": "^10.5.0",
+    "moment": "^2.30.1",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.0.0",
+    "react-google-forms-hooks": "^1.2.4",
+    "react-google-recaptcha": "^2.1.0",
+    "react-helmet": "^6.1.0",
+    "react-lottie": "^1.2.3",
+    "react-markdown": "^9.0.1",
+    "react-moment": "^1.1.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-slick": "^0.29.0",
+    "react-sticky-box": "^1.0.2",
+    "sass": "^1.50.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "5.3.0",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.4.1-dev.7b97011.0",
+    "web3-react": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.8",
+    "@types/react-google-recaptcha": "^2.1.5",
+    "@types/react-helmet": "^6.1.5",
+    "@types/react-lottie": "^1.2.6",
+    "@types/react-slick": "^0.23.10",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "pnotify": "^5.2.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "update-browserslist-db": "^1.0.13",
+    "url": "^0.11.0",
+    "wrangler": "^3.24.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,480 @@
+@media (min-width: 768px){
+    nav#mobile-navbar-menu {
+        display: none;
+    }
+    .navigation-zone.mobile{
+        display: none;
+    }
+    .mui-step-form {
+        background: linear-gradient(359deg, rgb(20 30 51 / 87%), rgb(22 28 65) 178.71%), linear-gradient(143deg, #141732, rgba(0,255,0,0) 80.71%), linear-gradient(336deg, rgb(20 22 51), rgba(0,0,255,0) 20.71%);
+        transition: 0.4s;
+        color: #fff;
+        border-radius: 30px;
+        box-shadow: 1px 2px 12px 3px rgb(6 8 44 / 33%);
+        margin: 0 auto;
+    }
+    .MuiStepLabel-iconContainer {
+        display: flex!important;
+        flex-shrink: 0!important;
+        padding-right: 17px!important;
+    }
+    .css-8t49rw-MuiStepConnector-line {
+        min-height: 48px!important;
+        border-color: #405cab!important;
+    }
+    .MuiStepLabel-root {
+        display: flex!important;
+        align-items: center!important;
+        flex-direction: inherit!important;
+        
+    }
+    .css-mhc70k-MuiGrid-root {
+        min-height: 640px!important;
+    }
+    .css-dmmspl-MuiFormGroup-root {
+        margin-top: 12px!important;
+    }
+    .MuiStepLabel-alternativeLabel{
+        margin-top: 0px!important;
+    }
+    .MuiStepConnector-root {
+        flex: 1 1 auto!important;
+        position: unset!important;
+    }
+    .css-1hbvpl3-MuiSvgIcon-root, .css-11zohuh-MuiSvgIcon-root {
+        font-size: 1.2rem!important;
+    }
+    .step-zone h6 {
+        margin-bottom: 5px;
+        color: #00bcd4;
+    }
+    .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+        padding: 4px 0 8px!important;
+        color: #ffffff91!important;
+        font-family: 'ClashGrotesk-Regular'!important;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+        content: "";
+        background: linear-gradient(270deg, #215cd4 -5.5%, #6ED7FB 83.6%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    }
+    .css-14sza3e-MuiStepLabel-root {
+        padding: 2px 0!important;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+        color: transparent!important;
+    }
+    .css-qivjh0-MuiStepLabel-label {
+        font-family: 'ClashGrotesk-Light'!important;
+    }
+    .css-qivjh0-MuiStepLabel-label.Mui-completed {
+        color: rgb(255 255 255 / 87%)!important;
+        font-weight: 500;
+    }
+    .css-16ubnlw-MuiStepLabel-labelContainer {
+        color: #ffffff1a!important;
+    }
+    .navigation-zone h5 {
+        margin-bottom: 15px;
+    }
+    .css-ahj2mt-MuiTypography-root {
+        font-family: 'ClashGrotesk-Regular'!important;
+        font-size: 0.95rem!important;
+    }
+    .css-u4tvz2-MuiFormLabel-root {
+        color: rgb(255 255 255)!important;
+        font-family: 'ClashGrotesk-Light'!important;
+        font-size: 18px!important;
+        margin-top: 25px!important;
+    }
+    .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+        color: #6ED7FB!important;
+    }
+    .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+        color: #6ED7FB!important;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+        color: rgb(32 43 83)!important;
+    }
+    .css-qivjh0-MuiStepLabel-label.Mui-active {
+        color: rgb(255 255 255 / 87%)!important;
+        font-family: 'ClashGrotesk-Light'!important;
+    }
+    .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+        display: block!important;
+    }
+    .css-117w1su-MuiStepIcon-text {
+        fill: #ffffff38!important;
+    }
+    .Mui-active .css-117w1su-MuiStepIcon-text {
+        fill: #ffffff!important;
+    }
+    .navigation-zone {
+        content: "";
+        background: url(/public/assets/images/bg/apply-nav-bottom.svg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:bottom;
+    }
+    .step-zone {
+        height: auto;
+        position: relative;
+    }
+    .navigation-zone {
+        background-color: #232c9d26;
+        border-bottom-left-radius: 28px;
+        border-top-left-radius: 28px;
+    }
+    .bottom-buttons-apply{
+        position: absolute!important;
+        display: block;
+        bottom: 44px;
+        right: 50px;
+    }
+    .css-1a1fmpi-MuiInputBase-root-MuiInput-root:before {
+        border-bottom: 1px solid #6ED7FB!important;
+    }
+    .css-1a1fmpi-MuiInputBase-root-MuiInput-root:after {
+        border-bottom: 2px solid #C9FF76!important;
+    }
+    /* button.apply-ido {
+        border-radius: 30px;
+        padding: 4px 24px;
+        color: white;
+        text-transform: none;
+        font-family: 'ClashGrotesk-Light';
+        font-size: 17px;
+    } */
+    button.apply-ido {
+        border-radius: 30px;
+        padding: 4px 19px;
+        color: white;
+        text-transform: none;
+        font-family: 'ClashGrotesk-Light';
+        font-size: 17px;
+    }
+    .apply-ido i.icon-arrow_right {
+        background: #d7d5d55c;
+        border-radius: 50%;
+        padding: 7px 9px 7px 10px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    button.opacity {
+        opacity: 0;
+    }
+    .css-1dym4ij-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+        color: white;
+        opacity: 0.4;
+    }
+    input:-webkit-autofill {
+        
+        -webkit-text-fill-color: #999;
+    }
+    input:-webkit-autofill:focus {
+        -webkit-text-fill-color: #999;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+        color: #0ba7ee!important;
+    }
+    .css-83ijpv-MuiTypography-root, .css-10hburv-MuiTypography-root {
+        font-family: 'ClashGrotesk-Regular'!important;
+    }
+    .css-1bvc4cc {
+        justify-content: space-between!important;
+    }
+    button.apply-ido.back {
+        background: transparent;
+        border: 1px solid;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 767px){
+    .related {
+        padding: 12px;
+    }
+    .navigation-zone.desktop{
+        display: none;
+    }
+    .css-qivjh0-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+        display: none;
+    }
+    .mui-step-form {
+        background: linear-gradient(359deg, rgb(20 30 51 / 87%), rgb(22 28 65) 178.71%), linear-gradient(143deg, #141732, rgba(0,255,0,0) 80.71%), linear-gradient(336deg, rgb(20 22 51), rgba(0,0,255,0) 20.71%);
+        transition: 0.4s;
+        color: #fff;
+        border-radius: 30px;
+        box-shadow: 1px 2px 12px 3px rgb(6 8 44 / 33%);
+        margin: 0 auto;
+    }
+    .MuiStepLabel-iconContainer {
+        display: flex!important;
+        flex-shrink: 0!important;
+        padding-right: 17px!important;
+    }
+    .css-8t49rw-MuiStepConnector-line {
+        min-height: 48px!important;
+        border-color: #405cab!important;
+    }
+    .MuiStepLabel-root {
+        display: flex!important;
+        align-items: center!important;
+        flex-direction: inherit!important;
+        
+    }
+    .css-mhc70k-MuiGrid-root {
+        min-height: 640px!important;
+    }
+    .css-dmmspl-MuiFormGroup-root {
+        margin-top: 12px!important;
+    }
+    .MuiStepLabel-alternativeLabel{
+        margin-top: 0px!important;
+    }
+    .MuiStepConnector-root {
+        flex: 1 1 auto!important;
+        position: unset!important;
+    }
+    .css-1hbvpl3-MuiSvgIcon-root, .css-11zohuh-MuiSvgIcon-root {
+        font-size: 1rem!important;
+    }
+    .step-zone h6 {
+        margin-bottom: 5px;
+        color: #00bcd4;
+    }
+    .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+        padding: 0px 0 2px!important;
+        color: #ffffff91!important;
+        font-family: 'ClashGrotesk-Regular'!important;
+        font-size: 14px!important;
+    }   
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+        content: "";
+        background: linear-gradient(270deg, #215cd4 -5.5%, #6ED7FB 83.6%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    }
+    .css-14sza3e-MuiStepLabel-root {
+        padding: 2px 0!important;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+        color: transparent!important;
+    }
+    .css-qivjh0-MuiStepLabel-label {
+        font-family: 'ClashGrotesk-Light'!important;
+    }
+    .css-qivjh0-MuiStepLabel-label.Mui-completed {
+        color: rgb(255 255 255 / 87%)!important;
+        font-weight: 500;
+    }
+    .css-16ubnlw-MuiStepLabel-labelContainer {
+        color: #ffffff1a!important;
+    }
+    .navigation-zone h5 {
+        margin-bottom: 15px;
+    }
+    .css-ahj2mt-MuiTypography-root {
+        font-family: 'ClashGrotesk-Regular'!important;
+        font-size: 0.95rem!important;
+    }
+    .css-u4tvz2-MuiFormLabel-root {
+        color: rgb(255 255 255)!important;
+        font-family: 'ClashGrotesk-Light'!important;
+        font-size: 15px!important;
+        margin-top: 10px!important;
+    }
+    .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+        color: #6ED7FB!important;
+    }
+    .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+        color: #6ED7FB!important;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+        color: rgb(32 43 83)!important;
+    }
+    .css-qivjh0-MuiStepLabel-label.Mui-active {
+        color: rgb(255 255 255 / 87%)!important;
+        font-family: 'ClashGrotesk-Light'!important;
+    }
+    .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+        display: block!important;
+    }
+    .css-117w1su-MuiStepIcon-text {
+        fill: #ffffff38!important;
+    }
+    .Mui-active .css-117w1su-MuiStepIcon-text {
+        fill: #ffffff!important;
+    }
+    .navigation-zone {
+        content: "";
+        background: url(/public/assets/images/bg/apply-nav-bottom.svg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:bottom;
+    }
+    .step-zone {
+        height: auto;
+        position: relative;
+    }
+    .navigation-zone {
+        background-color: #232c9d26;
+        border-bottom-left-radius: 28px;
+        border-top-left-radius: 28px;
+    }
+    .MuiBox-root.css-sp7t83, .MuiBox-root.css-1bvc4cc {
+     padding-top: 25px;
+    }
+    .css-1a1fmpi-MuiInputBase-root-MuiInput-root:before {
+        border-bottom: 1px solid #6ED7FB!important;
+    }
+    .css-1a1fmpi-MuiInputBase-root-MuiInput-root:after {
+        border-bottom: 2px solid #C9FF76!important;
+    }
+    /* button.apply-ido {
+        border-radius: 30px;
+        padding: 4px 24px;
+        color: white;
+        text-transform: none;
+        font-family: 'ClashGrotesk-Light';
+        font-size: 17px;
+    } */
+    button.apply-ido {
+        border-radius: 30px;
+        padding: 4px 19px;
+        color: white;
+        text-transform: none;
+        font-family: 'ClashGrotesk-Light';
+        font-size: 17px;
+    }
+    .apply-ido i.icon-arrow_right {
+        background: #d7d5d55c;
+        border-radius: 50%;
+        padding: 7px 9px 7px 10px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    button.opacity {
+        opacity: 0;
+    }
+    .css-1dym4ij-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+        color: white;
+        opacity: 0.4;
+    }
+    input:-webkit-autofill {
+        
+        -webkit-text-fill-color: #999;
+    }
+    input:-webkit-autofill:focus {
+        -webkit-text-fill-color: #999;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+        color: #0ba7ee!important;
+    }
+    .css-83ijpv-MuiTypography-root, .css-10hburv-MuiTypography-root {
+        font-family: 'ClashGrotesk-Regular'!important;
+    }
+    .css-1bvc4cc {
+        justify-content: space-between!important;
+    }
+    button.apply-ido.back {
+        background: transparent;
+        border: 1px solid;
+    }
+}
+@media (min-width: 1800px) and (max-width: 1919px){
+    .related h3 {
+        font-size: 40px;
+        margin-top: 45px;
+    }
+    .chainPriceHeroRelated {
+        bottom: 21px;
+        width: 76%;
+    }
+    .Access_Allocation_Related ul li span {
+        font-size: 13.5px;
+    }
+    .Access_Allocation_Related ul li p {
+        font-size: 17px;
+    }
+    .dextools-header-section .header-menu ul li a {
+        font-size: 17px;
+    }
+    .chainPriceHeroRelated .prePrice {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+}
+@media (min-width: 1900px) and (max-width: 1920px) {
+    .related {
+    display: block;
+    -webkit-mask-image: radial-gradient(circle 50px at calc(1.9vw) calc(3.9vh), transparent 59px, #000 0);
+    -o-object-fit: cover;
+    }
+    .related h3 {
+        font-size: 50px;
+        margin-top: 73px;
+    }
+    .chainPriceHeroRelated {
+        bottom: 26px;
+        width: 77%;
+    }
+    .Access_Allocation_Related ul li span {
+        font-size: 13.5px;
+    }
+    .Access_Allocation_Related ul li p {
+        font-size: 17px;
+    }
+    .dextools-header-section .header-menu ul li a {
+        font-size: 17px;
+    }
+    .chainPriceHeroRelated .prePrice {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+    img.logo-heroRelated {
+        background-size: contain;
+        padding: 8px;
+        width: 92px!important;
+        left: -29px;
+        top: 27.7px;
+        position: relative;
+        z-index: 1000;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .related {
+        display: block;
+        -webkit-mask-image: radial-gradient(circle 48px at calc(1.95vw) calc(3.8vh), transparent 59px, #000 0);
+        -o-object-fit: cover;
+    }
+    .related h3 {
+        font-size: 55px;
+        margin-top: 93px;
+    }
+    .chainPriceHeroRelated {
+        bottom: 26px;
+        width: 78%;
+    }
+    .Access_Allocation_Related ul li span {
+        font-size: 13.5px;
+    }
+    .Access_Allocation_Related ul li p {
+        font-size: 17px;
+    }
+    .dextools-header-section .header-menu ul li a {
+        font-size: 17px;
+    }
+    .chainPriceHeroRelated .prePrice {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+}

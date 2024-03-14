@@ -1,0 +1,4223 @@
+@charset "utf-8";
+
+/** 
+*
+* -----------------------------------------------------------------------------
+* Template : Dextools - Metaverse Web3 ILO/IDO Token Launchpad Figma Template
+* Author : uigigs
+* Author URI : http://www.uigigs.com/
+*
+* -----------------------------------------------------------------------------
+*
+**/
+
+@media only screen and (min-width: 1200px) {
+    .container-hero {
+        max-width: 87vw;
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 63vw;
+    }
+
+    .cd-multi-steps li {
+        margin: 0 21.7vw 0 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1370px) {
+    .container-hero {
+        max-width: 87vw;
+    }
+
+    .mui-step-form {
+        max-width: 84vw !important;
+    }
+
+    .finish-div {
+        max-width: max-content;
+        color: black;
+        padding: 4px 13px;
+        border-radius: 30px;
+        position: relative;
+        font-size: 9px;
+    }
+
+    .cd-multi-steps li {
+        margin: 0 19vw 0 0;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise span {
+        margin-right: 16px;
+        font-family: 'ClashGrotesk-Light', serif;
+        font-size: 15px;
+        position: relative;
+        left: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    .container-hero {
+        max-width: 87vw;
+    }
+
+    #details-page .container {
+        max-width: 88vw;
+    }
+
+    .container {
+        max-width: 78vw;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1700px) {
+    .cd-multi-steps li {
+        margin: 0 22.7vw 0 0;
+    }
+
+    .cd-multi-steps.text-center li::after {
+        width: 22.7vw;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1820px) {
+    .container-hero {
+        max-width: 87vw;
+    }
+
+    .container {
+        max-width: 78vw;
+    }
+
+    .video-col video {
+        max-width: 708px;
+        position: relative;
+        bottom: 104px;
+        filter: hue-rotate(69deg);
+    }
+
+    .dextools-logo-area.align-items-center {
+        position: absolute;
+        left: 0;
+        margin-left: 7.5vw;
+    }
+
+    .cd-multi-steps li {
+        margin: 0 22.7vw 0 0;
+    }
+
+    .cd-multi-steps.text-center li::after {
+        width: 22.7vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1620px) {
+    .related {
+        display: block;
+        -webkit-mask-image: radial-gradient(circle 49px at calc(2.6vw) calc(5.4vh), transparent 59px, #000 0);
+        -o-object-fit: cover;
+        border: 1.5px solid #8081D9;
+    }
+}
+
+@media only screen and (min-width: 1821px) and (max-width: 1920px) {
+    .container {
+        max-width: 73vw;
+    }
+
+    h1.banner-title {
+        font-size: 4.9vw;
+    }
+
+    img.backKYC {
+        max-width: 475px;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        opacity: 0.7;
+        top: 20vh;
+    }
+
+    .cd-multi-steps li {
+        margin: 0 22.7vw 0 0;
+    }
+
+    .cd-multi-steps.text-center li::after {
+        width: 23.7vw;
+    }
+
+    .finish-div {
+        max-width: max-content;
+        color: black;
+        padding: 4px 13px;
+        border-radius: 30px;
+        position: relative;
+        left: -0px;
+        font-size: 12px;
+    }
+
+    .video-col video {
+        max-width: 708px;
+        position: relative;
+        bottom: 104px;
+        filter: hue-rotate(69deg);
+    }
+
+    .dextools-logo-area.align-items-center {
+        position: absolute;
+        left: 0;
+        margin-left: 7.5vw;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2920px) {
+    h1.banner-title {
+        margin-bottom: 24px;
+        font-size: 4.9vw;
+        line-height: 5.6vw;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1270px) {
+    .Project_clasicSliderSect .prev {
+        left: 0;
+    }
+
+    .Project_clasicSliderSect .next {
+        right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .dextools-header-section .header-menu ul li + li {
+        margin-left: 25px;
+    }
+
+    .dextools-about-section .game-price-item .price-details h3 {
+        font-size: 24px;
+    }
+
+    .dextools-about-section .game-price-item {
+        padding: 30px;
+    }
+
+    .dextools-previous-section .previous-item .previous-chaining img {
+        margin-right: 60px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise .progress-inner {
+        width: 140px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise span {
+        margin-right: 15px;
+    }
+
+    .dextools-project-section .project-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dextools-project-section .project-item .heading-title h4:before {
+        left: -21px;
+    }
+
+    .dextools-project-section .project-item h4 {
+        font-size: 20px;
+    }
+
+    .dextools-tokenomics-section .pr-63,
+    .dextools-tokenomics-section .pr-63,
+    .dextools-tokenomics-section .pr-60 {
+        padding-right: 40px;
+    }
+
+    .dextools-calendar-list .calender-date {
+        padding: 15px;
+        width: 13%;
+    }
+
+    .dextools-previous-section .previous-mainmenu .menu-list.date-menu {
+        padding: 0;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 330px;
+    }
+
+    .igo-rankging-table-list tr th, .igo-rankging-table-list tr td {
+        width: 12.28%;
+        padding: 20px 12px;
+    }
+
+    .igo-rankging-table-list tr th:nth-child(2), .igo-rankging-table-list tr td:nth-child(2) {
+        width: 28%;
+    }
+
+    .igo-rankging-table-list tr .image-row {
+        padding-top: 14.5px;
+        padding-bottom: 14.5px;
+    }
+
+    .dextools-farming-table tr th, .dextools-farming-table tr td {
+        width: 15.666%;
+    }
+
+    .dextools-farming-table tr th:nth-child(5) {
+        width: 24.666%;
+    }
+
+    .dextools-farming-content .expeand-centent .farm-form-list input {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+
+    .project-summary-menu {
+        padding: 48px 30px 15px;
+    }
+
+    .project-summary-menu .nav button {
+        margin-bottom: 15px;
+    }
+
+    .project-details-content .game-price-inner .image-icon img {
+        max-width: 80px;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .price-inner .image-icon {
+        margin-right: 15px;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .allocation-max .allocation {
+        margin-top: 55px;
+    }
+
+    .project-details-content .game-price-item .price-counter {
+        margin-bottom: 26px;
+    }
+
+    .project-details-content table td {
+        padding: 17px 15px;
+        font-size: 15px;
+    }
+
+    .project-details-content table .table-header th {
+        padding: 17px 20px;
+    }
+
+    .project-details-content table .table-header th:nth-child(2) {
+        padding-left: 30px;
+    }
+
+    .project-details-content .project-service {
+        padding: 50px 70px 25px;
+    }
+
+    .project-meta-item .meta-counter,
+    .project-meta-item .meta-counter:first-child,
+    .project-meta-inner .meta-header,
+    .project-details-content .project-item {
+        padding: 35px 25px;
+    }
+
+    .project-meta-item .meta-counter {
+        padding-top: 0;
+    }
+
+    .project-details-content .project-item .date-listing li label {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+
+    .project-details-content .project-item .project-form-list .balance-form-area input[type="submit"] {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 128px;
+        font-size: 15px;
+    }
+
+    .participat-information .project-item h4 {
+        font-size: 20px;
+    }
+
+    .participat-information .project-item h3 {
+        font-size: 24px;
+    }
+
+    .dextools_V2_hero_Left h2 {
+        font-size: 43px;
+    }
+
+    .dextools-project-section .project-item .heading-title.heading-titleV2 .price-counter:before {
+        left: -20px;
+    }
+
+    .Tier_System_Headings ul li, .Tier_System_Items ul li {
+        margin-right: 25px !important;
+    }
+
+    .Tier_System_Headings ul li.WeightHeadings, .Tier_System_Items ul li.WeightItem {
+        width: 85px;
+        margin-right: 0 !important;
+    }
+
+    /*New CSS*/
+    .blog-detail-content .blog-area .blog-description .des {
+        font-size: 16px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .blockquote .des-active {
+        font-size: 18px;
+    }
+
+    .blog-detail-content .blog-area .Tokenomics-item .project-service {
+        margin-right: 0;
+        padding: 45px 0 20px 30px;
+    }
+
+    .blog-detail-content .about-blog p,
+    .blog-detail-content .blog-description p,
+    .blog-detail-content .igo-blog p {
+        font-size: 13px;
+    }
+
+    .blog-detail-content .blog-area .igo-blog ul li span {
+        font-size: 14px;
+    }
+
+    .blog-detail-content .post-item .post-shade h4,
+    .blog-detail-content .blog-description .des-heading h4,
+    .blog-detail-content .blog-area .igo-blog h4,
+    .blog-detail-content .about-blog h4,
+    .blog-detail-content .blog-area .form-item .form-heading h4,
+    .blog-detail-content .tag-menu h4,
+    .blog-detail-content .comment-item h4 {
+        font-size: 20px;
+    }
+
+    .newsletter-item .dsc,
+    .blog-detail-content .blog-area .comment-item .blog-comment .blog-replay .replay-text p {
+        font-size: 15px;
+    }
+
+    .post-item .recent-content,
+    .tag-menu ul li {
+        display: block;
+    }
+
+    .newsletter-item h4 {
+        font-size: 15px;
+    }
+
+    .newsletter-item.hover-shape-inner {
+        padding: 30px 25px;
+    }
+
+    .newsletter-item form input {
+        padding: 15px 10px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .des {
+        margin-bottom: 15px;
+    }
+
+    .blog-detail-content .about-blog p,
+    .blog-detail-content .blog-description p,
+    .blog-detail-content .igo-blog p {
+        margin-bottom: 35px;
+    }
+
+    .blog-detail-content .blog-area .form-item .input-submit {
+        margin-bottom: 30px;
+    }
+
+    .newsletter-item.hover-shape-inner .hover_shape1 {
+        left: 12%;
+    }
+
+    .newsletter-item.hover-shape-inner .hover_shape2 {
+        left: 59.5%;
+    }
+
+    .newsletter-item.hover-shape-inner .hover_shape3 {
+        left: 34%;
+    }
+
+    .blog-detail-content .blog-area .blog-description .des {
+        font-size: 15px;
+    }
+
+    .latest-details-content {
+        padding-bottom: 80px;
+    }
+
+    .latest-details-content .latest-item .latest-text .sec-heading p {
+        font-size: 14px;
+    }
+
+    .blog-detail-content .blog-area .about-blog .blog-contact .next-item {
+        /*margin-left: ;*/
+    }
+
+    .latest-blog-area .latest-text h4 {
+        font-size: 19px;
+    }
+
+    .megaMenuLeftSect {
+        padding-right: 20px;
+    }
+
+    .megaMenuRightSect {
+        max-width: 700px;
+    }
+
+    .HomeMenuListHeadings h2 {
+        font-size: 12px;
+    }
+
+    .HomeMenuList ul li a {
+        font-size: 12px !important;
+    }
+
+    .megaMenuRightSect .Menu_column {
+        max-width: 180px;
+    }
+
+    .menuHeadings h2 {
+        font-size: 12px;
+    }
+
+    .dextools-header-section .header-menu ul li .Menu_column ul li a {
+        font-size: 12px;
+    }
+
+    .Menu_column ul li span {
+        font-size: 8px;
+        height: 14px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .dextools_Header_contentright {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .dextools_Header_ProgressBar .progress {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .RoadmapListSect ul li {
+        font-size: 15px;
+    }
+
+    .slick-prev {
+        left: 25%;
+        top: -26%;
+    }
+
+    .slick-next {
+        left: 30%;
+        top: -30%;
+    }
+
+    .TokenomicsContentsLeftCustom {
+        margin-left: 80px;
+    }
+
+    .TokenomicsTable table tr td {
+        font-size: 14px;
+        padding: 15px 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .dextools-project-section .project-item .dsc {
+        font-size: 13px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise span {
+        font-size: 14px;
+    }
+
+    .dextools-calendar-list .calender-date > ul > li {
+        max-width: 24px;
+    }
+
+    .dextools-farming-content .default-centent {
+        padding: 10px;
+    }
+
+    .project-details-content .game-price-item .targeted-raise .targeted-raise {
+        top: -8px;
+    }
+
+    .RodmapLeftConetent {
+        padding-right: 30px;
+    }
+
+    .RodmapRightConetent {
+        padding-left: 30px;
+    }
+
+    .RoadmapContentBox {
+        max-width: 415px;
+        padding: 20px 25px;
+    }
+
+    .RoadmapContentBox1 {
+        min-height: 15px;
+    }
+
+    .RoadmapContentBox2 {
+        min-height: 185px;
+    }
+
+    .RoadmapContentBox3 {
+        min-height: 158px;
+    }
+
+    .RoadmapContentBox4 {
+        min-height: 230px;
+        background: url(../images/kycimg/roadMapcpntentBg5.svg) no-repeat left;
+    }
+
+    .RoadmapContentBox5 {
+        min-height: 260px;
+        background-size: contain;
+        background: url(../images/kycimg/roadMapcpntentBg3.svg) no-repeat right;
+    }
+
+    .RoadmapContentBox6 {
+        min-height: 230px;
+        background: url(../images/kycimg/roadMapcpntentBg7.svg) no-repeat;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox7 {
+        min-height: 185px;
+    }
+
+    .roadmap2021Divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 775px;
+        top: 0;
+        width: 50px;
+        background: url(../images/kycimg/Roadmap2021.svg) no-repeat center center;
+        background-size: contain;
+    }
+
+    .roadmap2022Divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 675px;
+        bottom: -65px;
+        width: 50px;
+        background: url(../images/kycimg/Roadmap2022.svg) no-repeat center center;
+        background-size: contain;
+    }
+
+    .TvlRightCardHeadings h3 {
+        font-size: 18px;
+    }
+
+    .TvlRightCardContent ul li {
+        font-size: 14px;
+    }
+
+    .Article_Details h2, .Article_Details h2 span {
+        font-size: 12px;
+    }
+
+    .Article_Details h3 a {
+        font-size: 18px;
+    }
+
+    .Article_Details p {
+        font-size: 14px;
+    }
+
+    .Article_Details a {
+        font-size: 12px;
+    }
+
+    .Latest_Articles_Card {
+        min-height: 495px;
+    }
+
+    .Article_Details2 h4, .Article_Details2 h4 a {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .Article_Details2 h4 a strong {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .Article_Details2 h5 {
+        font-size: 14px;
+    }
+
+    .FAQ_Screen_Tab {
+        padding: 34px 20px;
+    }
+
+    .FAQ_Screen_Tab ul li {
+        font-size: 15px;
+    }
+
+    .FAQ_Screen_Tab ul li.active, .FAQ_Screen_Tab ul li:hover {
+        font-size: 15px;
+    }
+
+    .ProjectDetails_TeamMembersCard h5 {
+        font-size: 14px;
+    }
+
+    .ProjectDetails_TeamMembersCard h6 {
+        font-size: 12px;
+    }
+
+    .TeamMembers_Img {
+        width: 45%;
+    }
+
+    .ProjectDetailsRoadMapContent ul li {
+        font-size: 15px;
+    }
+
+    .ProjectSammeryTabsSect button a {
+        font-size: 15px;
+    }
+
+
+    .dextools-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price h4 {
+        font-size: 18px;
+    }
+
+    .dextools-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price .dsc {
+        font-size: 14px;
+    }
+
+    .ProjectClasicSlider_TextSect h3 a {
+        font-size: 27px;
+    }
+
+    .ProjectClasicSlider_TextSect p {
+        font-size: 14px;
+    }
+
+
+    .details_project_right_section p {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .ProjectDetails2_ScheduleTableHeadings ul li, .ProjectDetails2_ScheduleTablebody ul li, .ProjectDetails2_AllocationsTableHeadings ul li, .ProjectDetails2_AllocationsTableBody ul li {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .RodmapLeftConetent {
+        padding-right: 30px;
+    }
+
+    .RodmapRightConetent {
+        padding-left: 30px;
+    }
+
+    .RoadmapContentBox {
+        max-width: 305px;
+        padding: 20px 25px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .RoadmapContentBox ul li {
+        font-size: 14px;
+    }
+
+    .RoadmapContentBox1 {
+        min-height: 158px;
+        background: url(../images/kycimg/roadMapcpntentBg1.svg) right;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox2 {
+        min-height: 185px;
+        background: url(../images/kycimg/roadMapcpntentBg5.svg) left;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox3 {
+        min-height: 158px;
+        background: url(../images/kycimg/roadMapcpntentBg2.svg) right;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox4 {
+        min-height: 216px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg6.svg) no-repeat left;
+    }
+
+    .RoadmapContentBox5 {
+        min-height: 260px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg3.svg) no-repeat right;
+    }
+
+    .RoadmapContentBox6 {
+        min-height: 230px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg7.svg) no-repeat left;
+    }
+
+    .RoadmapContentBox7 {
+        min-height: 185px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg4.svg) no-repeat right;
+    }
+
+    .Article_Details h2, .Article_Details h2 span {
+        font-size: 11px;
+    }
+
+    .Article_Details h3 a {
+        font-size: 20px;
+    }
+
+    .Article_Details p {
+        font-size: 14px;
+    }
+
+    .Article_Details a {
+        font-size: 12px;
+    }
+
+    .Latest_Articles_Card {
+        min-height: 495px;
+    }
+
+    .Article_Details2 h4, .Article_Details2 h4 a {
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+    .Article_Details2 h4 a strong {
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+    .Article_Details2 h5 {
+        font-size: 14px;
+    }
+
+    .FAQ_Screen_Tab_Sect {
+        padding-right: 0;
+    }
+
+    .FAQ_Screen_Tab {
+        padding: 25px 16px;
+    }
+
+    .FAQ_Screen_Tab ul li, .FAQ_Screen_Tab ul li.active, .FAQ_Screen_Tab ul li:hover {
+        font-size: 13px;
+    }
+
+    .FAQ_Screen_Tab ul li span {
+        margin-left: 10px;
+        width: 45px;
+    }
+
+    .FAQ_Screen_Tab_Content {
+        padding-left: 0;
+    }
+
+    .FAQContnetSect .accordion {
+        font-size: 18px;
+    }
+
+    .ProjectDetailsRoadMapContent ul li {
+        line-height: 158%;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .ProjectDetailsRoadMapContent ul li span {
+        min-width: 14px;
+        max-width: 14px;
+    }
+
+    .project-summary-menu {
+        padding: 30px 13px;
+    }
+
+
+    .ProjectSammeryTabsSect button a {
+        font-size: 14px;
+    }
+
+    .ProjectSammeryTabsSect button a img {
+        width: 40px;
+    }
+
+    .dextools-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price h4 {
+        font-size: 16px;
+    }
+
+    .dextools-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price .dsc {
+        font-size: 12px;
+    }
+
+    .dextools-previous-section.ProjectClasic_PreviousSection .previous-item .previous-EndsIn.list3Custom span {
+        font-size: 10px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise.list4Custom span {
+        font-size: 10px;
+    }
+
+    .ProjectClasicCustomProgressSect p {
+        font-size: 10px;
+    }
+
+    .liveProoject_Headings h2 {
+        font-size: 30px;
+    }
+
+    .liveProoject_Headings {
+        max-width: 285px;
+    }
+
+    .ProjectClasicSliderBG {
+        padding: 30px;
+    }
+
+    .ProjectClasicSlider_ImgAndTitleSect img {
+        max-width: 50px;
+    }
+
+    .ProjectClasicSlider_TextSect {
+        margin-left: 15px;
+    }
+
+    .ProjectClasicSlider_TextSect h3 {
+        margin-bottom: 0;
+    }
+
+    .ProjectClasicSlider_TextSect h3 a {
+        font-size: 19px;
+    }
+
+    .ProjectClasicSlider_TextSect p {
+        font-size: 11px;
+    }
+
+    .ProjectClasicSlider_RightTimer h2 {
+        font-size: 11px;
+    }
+
+    .ProjectClasicSlider_RightTimer .price-counter .timer ul li {
+        font-size: 19px;
+    }
+
+    .ProjectClasicSlider_RiseCeontent h2, .Access_AllocationText h2 {
+        font-size: 12px;
+    }
+
+    .ProjectClasicSlider_RiseCeontent span, .Access_AllocationText span {
+        font-size: 10px;
+    }
+
+    .ProjectClasicSlider_RightTimer h2 {
+        margin-bottom: 10px;
+    }
+
+    .ProjectClasicSlider_RightTimer {
+        margin-bottom: -5px;
+    }
+
+    .ProjectClasicSliderSocialLinks li a i {
+        font-size: 18px;
+    }
+
+    .ProjectClasicSliderBG {
+        min-height: 350px;
+    }
+
+    .Project_clasicSliderSect .prev {
+        left: -7%;
+    }
+
+    .Project_clasicSliderSect .next {
+        right: -7%;
+    }
+
+    .Project_clasicSliderSect .prev img, .Project_clasicSliderSect .next img {
+        height: 30px;
+    }
+
+    .Project_clasic_2Container_RightHeadings h2 {
+        margin-bottom: 5px;
+    }
+
+    .Project_clasic_2Container_RightHeadings h2 a {
+        font-size: 22px;
+    }
+
+    .Project_clasic_2Container_RightHeadings p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .Project_clasic_2Container_RightHeadings span {
+        height: 30px;
+        width: 30px;
+    }
+
+    .TotalRaisedProgressHeadings h3, .TotalRaisedProgressHeadings p {
+        font-size: 12px;
+    }
+
+    .TotalRaisedProgressSaleAirdropSect p {
+        font-size: 12px;
+    }
+
+    .Access_Allocation_ParticipantsSect ul li span {
+        font-size: 15px;
+    }
+
+    .Access_Allocation_ParticipantsSect ul li p {
+        font-size: 15px;
+    }
+
+    .Project_clasic_2ContainerSocialSect ul {
+        max-width: 200px;
+    }
+
+    .Project_clasic_2ContainerSocialSect ul li a i {
+        font-size: 16px;
+    }
+
+    .Project_clasic_2_ContainerLeft {
+        min-height: 335px;
+    }
+
+    .Access_Allocation_ParticipantsSect {
+        margin-top: 10px;
+    }
+
+    .Project_clasic_2ContainerSocialSect {
+        margin-top: 35px;
+    }
+
+    .ProjectClasic2_Timer {
+        width: 210px;
+    }
+
+    .Project_clasic_2_LeftContentImg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul {
+        max-width: 140px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul li {
+        font-size: 13px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul li span {
+        font-size: 10px;
+    }
+
+
+    .project_details_left_timer {
+        width: 245px;
+        height: 40px;
+    }
+
+    .project_details_left_timer .price-counter ul {
+        width: max-content;
+        padding-top: 2px;
+    }
+
+    .project_details_left_timer .price-counter ul li {
+        font-size: 17px;
+    }
+
+    .project_details_left_timer .price-counter ul li span {
+        font-size: 10px;
+    }
+
+    .project_details_left_section .ChainImg {
+        width: 40px;
+    }
+
+    .details_project_name h2 {
+        margin-bottom: 0;
+    }
+
+    .details_project_name h2 a {
+        font-size: 23px;
+    }
+
+    .details_project_name span {
+        font-size: 13px;
+    }
+
+    .project_details_img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .details_project_right_section p {
+        font-size: 17px;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .project_details_btn button {
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .project_details_left_section .TotalRaisedProgressSect {
+        margin-top: 100px;
+    }
+
+
+    .PoolAndTokenInfo_List ul li p.PoolAndTokenInfo_ListRight span {
+        margin-right: 15px;
+    }
+
+    .V3Project_clasic_2Container_RightSect {
+        padding: 15px 22px 22px 0;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .dextools-header-section .dextools-btn-area ul .nav-expander {
+        display: none;
+    }
+
+    .homeBounce {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumbs-form .dextools-navigation {
+        margin-left: 20px;
+    }
+
+    .kycForm .UploadDocSect ul li h4 {
+        font-size: 11px;
+    }
+
+    .kycPersonalinfoForm form .InputNameSect, .kycPersonalinfoForm form .InputAddressSect, .kycPersonalinfoForm form .InputCitySect {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .kycPersonalinfoForm form .InputNameSect .FirstNameFild, .kycPersonalinfoForm form .InputNameSect .LastNameFild, .kycPersonalinfoForm form .InputAddressSect .Address1Fild, .kycPersonalinfoForm form .InputAddressSect .Address2Fild, .kycPersonalinfoForm form .InputCitySect .CityFild, .kycPersonalinfoForm form .InputCitySect .PostCodeFild {
+        width: 100%;
+    }
+
+    .roadmap2021Divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 750px;
+        top: 0;
+        width: 50px;
+        background: url(../images/kycimg/Roadmap2021.svg) no-repeat center center;
+        background-size: contain;
+    }
+
+    .roadmap2022Divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 650px;
+        bottom: -10px;
+        width: 50px;
+        background: url(../images/kycimg/Roadmap2022.svg) no-repeat center center;
+        background-size: contain;
+    }
+
+    .buyTokenlogos ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .buyTokenlogos ul li {
+        width: 47%;
+        margin-right: 0;
+        margin-bottom: 26px;
+    }
+
+    .Key_Points_Item_Text h3 {
+        font-size: 16px;
+    }
+
+    .Key_Points_Item_Text p {
+        font-size: 12px;
+        line-height: 158%;
+    }
+
+    .TvlRightCardHeadings h3 {
+        font-size: 16px;
+    }
+
+    .TvlRightCardContent ul li {
+        font-size: 12px;
+    }
+
+    .TvlHeadings h3 {
+        font-size: 26px;
+    }
+
+    .TvlHeadings h2 {
+        font-size: 20px;
+    }
+
+    .TvlList ul li {
+        font-size: 14px;
+    }
+
+    .tierV2ColHeadings h2 {
+        font-size: 30px;
+    }
+
+    .tierV2ColHeadings h3 {
+        font-size: 17px;
+    }
+
+    .TiedV2CollBody ul li h4 {
+        font-size: 13px;
+    }
+
+    .TiedV2CollBody ul li h5 {
+        font-size: 11px;
+    }
+
+    .V1_tokenomics_content_ListProgress {
+        height: 40px;
+    }
+
+    .V1_tokenomics_content_ListText h4 {
+        font-size: 13px;
+    }
+
+    .V1_tokenomics_content_ListText h5 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    .dextools-tokenomics-section .tokenomics-counter h5 {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .dextools-header-section .heaader-inner-area ul li.buy-token,
+    .dextools-header-section .header-menu {
+        display: none;
+    }
+
+    .sc-banner .banner-content .banner-title {
+        margin: 0 0 20px;
+        font-size: 40px;
+    }
+
+    .banner-btn {
+        padding: 14px 30px;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .price-inner,
+    .dextools-about-section .game-price-item .game-price-inner {
+        display: block !important;
+    }
+
+    .dextools-about-section .allocation-max,
+    .dextools-about-section .total-price,
+    .dextools-about-section .targeted-raise {
+        width: 100%;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .allocation-max .allocation {
+        margin-top: 35px;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .targeted-raise .targeted-raise,
+    .dextools-about-section .game-price-item .game-price-inner .all-raise,
+    .dextools-about-section .game-price-item .game-price-inner .price-inner {
+        text-align: center !important;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .targeted-raise .targeted-raise,
+    .dextools-about-section .game-price-item .game-price-inner .price-inner .image-icon {
+        margin-bottom: 10px;
+    }
+
+    .dextools-about-section .game-price-item .game-price-inner .price-inner .image-icon {
+        margin-right: 0;
+    }
+
+    .banner-slider-inner .timer {
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+
+    .sc-banner {
+        padding: 150px 0 200px;
+    }
+
+    .participate-item .number-image {
+        flex: 0 0 15%;
+    }
+
+    .apply-heading h2,
+    .dextools-footer-section .footer-cta-area .title,
+    .sec-heading .title {
+        font-size: 30px;
+    }
+
+    .dextools-project-section {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .dextools-previous-section .previous-item {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .dextools-previous-section .previous-item .previous-gaming .previous-price h4 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .dextools-previous-section .previous-item .previous-chaining img {
+        margin-right: 20px;
+    }
+
+    .dextools-previous-section .previous-item .previous-gaming img {
+        width: 50px;
+    }
+
+    .dextools-previous-section .previous-mainmenu ul .list1 {
+        width: 31.5%;
+    }
+
+    .dextools-tokenomics-section .tokenomics-menu,
+    .dextools-tokenomics-section .pr-63, .dextools-tokenomics-section .pr-63, .dextools-tokenomics-section .pr-60 {
+        padding-right: 30px;
+    }
+
+    .dextools-footer-section .footer-listing .footer-icon-list i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 8px;
+        font-size: 18px;
+    }
+
+    .dextools-footer-section .footer-cta-area {
+        padding: 44px 0 40px 0;
+    }
+
+    .dextools-team-section .team-item img {
+        margin-bottom: 30px;
+    }
+
+    .dextools-about-section .game-price-item .price-details h3 {
+        margin-bottom: 5px;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form {
+        justify-content: flex-start;
+    }
+
+    .dextools-footer-section .copyright-area .dsc {
+        margin-bottom: 25px;
+    }
+
+    .dextools-previous-section .previous-mainmenu .menu-list .date-list {
+        width: 12%;
+    }
+
+    .dextools-calendar-list {
+        justify-content: flex-start;
+    }
+
+    .dextools-calendar-list .calender-date {
+        width: 24%;
+    }
+
+    .project-menu-area ul li a, .project-menu-area ul li .tab-link {
+        padding: 8px 13px;
+    }
+
+    .project-menu-area ul li:last-child {
+        border: none;
+    }
+
+    .dextools-farming-table tr th:first-child,
+    .dextools-farming-table tr td:first-child {
+        width: 14.666%;
+    }
+
+    .dextools-farming-table tr th:nth-child(5) {
+        width: 35.666%;
+    }
+
+    .dextools-farming-content .list-1 {
+        flex: 0 0 32%;
+        width: 32%;
+    }
+
+    .project-menu-area .al-access-menu > li:after,
+    .project-menu-area .al-access-menu > li:before {
+        top: 22px;
+    }
+
+    .dextools-farming-content .list-content {
+        flex: 0 0 100%;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .dextools-farming-content .default-centent,
+    .dextools-farming-content .expeand-bottom-content .expeand-centent .expeand-farm {
+        display: block !important;
+    }
+
+    .dextools-farming .farm-form-list {
+        width: 100%;
+    }
+
+    .dextools-farming-content .default-centent {
+        padding-top: 28px;
+    }
+
+    .dextools-farming-table table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .dextools-farming .farm-form-list {
+        margin-bottom: 30px;
+    }
+
+    .dextools-farming .farm-form-list:last-child {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .dextools-farming .farm-form-list .farm-form {
+        margin-bottom: 0;
+    }
+
+    .igo-rankging-table-list tr th:nth-child(2),
+    .igo-rankging-table-list tr td:nth-child(2) {
+        min-width: 225px;
+    }
+
+    .igo-rankging-table-list tr th:last-child,
+    .igo-rankging-table-list tr td:last-child {
+        width: 10.28%;
+    }
+
+    .igo-rankging-table-list tr th,
+    .igo-rankging-table-list tr td {
+        padding: 20px 5px;
+    }
+
+    .igo-rankging-table-list tr .image-row img {
+        margin-right: 5px;
+    }
+
+    .igo-rankging-table-list tr {
+        display: flex;
+    }
+
+    .dextools-previous-section .previous-mainmenu ul li,
+    .igo-rankging-table-list tr th {
+        font-size: 14px;
+    }
+
+    .leaderboard-table-list tr th,
+    .leaderboard-table-list tr td {
+        padding: 15px 8px;
+        font-size: 15px;
+    }
+
+    .dextools-previous-section .previous-item .previous-gaming .previous-price .dsc {
+        font-size: 16px;
+    }
+
+    .project-details-content .game-price-item .price-counter {
+        max-width: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .project-details-content .banner-bottom-content .social-icon-list li {
+        margin-left: 0;
+    }
+
+    .project-details-content .project-item {;
+        padding: 35px 20px;
+    }
+
+    .project-details-content .project-service {
+        display: block;
+    }
+
+    .project-details-content .project-service .project-image {
+        margin: 0 0 40px;
+    }
+
+    .project-summary-menu .nav button img {
+        display: none;
+    }
+
+    .project-details-content .project-service {
+        padding: 50px 40px 25px;
+    }
+
+    .project-details-content .banner-bottom-content .social-icon-list li i,
+    .project-details-content .game-price-item .text-content {
+        font-size: 15px;
+    }
+
+    .project-details-content .readon {
+        padding: 8px 15px;
+    }
+
+    .project-details-content .project-item .project-info {
+        margin-bottom: 0;
+    }
+
+    .participat-information .project-item .date-listing {
+        padding-top: 20px;
+    }
+
+    .project-details-content .project-item ul.date-listing {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .dextools_Header_contentright {
+        display: block;
+        margin-top: 10px;
+    }
+
+    /*New CSS*/
+    .blog-detail-content {
+        padding-bottom: 80px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .des {
+        font-size: 18px;
+    }
+
+    .blog-detail-content .about-blog p,
+    .blog-detail-content .blog-description p,
+    .blog-detail-content .igo-blog p {
+        font-size: 15px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .blockquote .des-active {
+        font-size: 20px;
+    }
+
+    .post-item .recent-content {
+        display: flex;
+    }
+
+    .dextools-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+        font-size: 50px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .des {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .dextools-breadcrumbs-section .breadcrumbs-form.breadcrumbsprogress_BarCustom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        margin-top: 25px;
+    }
+
+    .dextools_Header_ProgressBar .progress {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .kycForm .UploadDocSect ul li h4 {
+        width: 74%;
+        margin: auto;
+    }
+
+    .dextools_header_V2MenuList ul.v2MainMenuList {
+        display: none;
+    }
+
+    .dextools_V2_hero_Left h2 {
+        font-size: 45px;
+        line-height: 158%;
+    }
+
+    .dextools_V2_hero_Left p {
+        font-size: 17px;
+    }
+
+    .dextools_V2_hero_Btns .VIEW_Projects_Btn, .dextools_V2_hero_Btns .Apply_Project_Btn {
+        width: 150px;
+        height: 50px;
+    }
+
+    .dextools_V2_hero_Btns .VIEW_Projects_Btn .btn-text, .dextools_V2_hero_Btns .Apply_Project_Btn .btn-text {
+        font-size: 14px;
+    }
+
+    .TokenomicsListSect ul {
+        margin-right: 50px;
+    }
+
+    .Multi_Chain_Support_right_list ul {
+        margin-right: 30px;
+    }
+
+    .Multi_Chain_Support_right_list ul li {
+        font-size: 15px;
+    }
+
+    .dextoolssubscriveSect input {
+        max-width: 390px;
+        height: 52px;
+    }
+
+    .ProjectV2_TabBtns ul li button {
+        width: 125px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    .ProjectV2_TabBtns ul li button .btn-text {
+        font-size: 13px;
+    }
+
+    .RoadmapTabBtns ul li button {
+        width: 100px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    .RoadmapTabBtns ul li button .btn-text {
+        font-size: 13px;
+    }
+
+    .Tier_System_Items ul li span {
+        max-width: 18px;
+        min-width: 18px;
+    }
+
+    .Tier_System_Items ul li strong {
+        font-size: 12px;
+    }
+
+    .Tier_System_Headings ul li, .Tier_System_Items ul li {
+        font-size: 12px;
+        margin-right: 10px !important;
+    }
+
+    .Tier_System_Items ul li.tiersItem {
+        width: 113px;
+    }
+
+    .Tier_System_Items ul li.StakingItem {
+        width: 125px;
+    }
+
+    .Tier_System_Items ul li.allocationItem {
+        width: 150px;
+    }
+
+    .Tier_System_Items ul li.RequirementsItem {
+        width: 125px;
+    }
+
+    .Tier_System_Headings ul li.WeightHeadings, .Tier_System_Items ul li.WeightItem {
+        width: 60px;
+    }
+
+    .RoadmapListSect ul li {
+        font-size: 12px;
+    }
+
+    .RoadmapListSect ul li span {
+        min-width: 10px;
+        max-width: 10px;
+    }
+
+    .slick-prev {
+        left: 28%;
+        top: -20%;
+    }
+
+    .slick-next {
+        left: 34%;
+        top: -23%;
+    }
+
+    .sc_banner_V3_left h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .sc_banner_V3_left p {
+        font-size: 15px;
+    }
+
+    .sc_banner_V3_right ul li h3 {
+        font-size: 12px;
+    }
+
+    .sc_banner_V3_right ul li h4 {
+        font-size: 16px;
+    }
+
+    .dextoolsV3_ProjectPoolsBtn li button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .How_to_Participate_right_Card_number {
+        min-width: auto;
+    }
+
+    .TokenomicsContentsLeftCustom {
+        margin-left: 20px;
+    }
+
+
+    .ProjectDetails2_ScheduleTable, .ProjectDetails2_AllocationsTable {
+        overflow-y: scroll;
+    }
+
+    .ProjectDetails2_ScheduleTableHeadings, .ProjectDetails2_ScheduleTablebody, .ProjectDetails2_AllocationsTableHeadings, .ProjectDetails2_AllocationsTableBody {
+        min-width: 920px;
+    }
+
+    .ProjectDetails2_ScheduleTableHeadings ul li, .ProjectDetails2_ScheduleTablebody ul li, .ProjectDetails2_AllocationsTableHeadings ul li, .ProjectDetails2_AllocationsTableBody ul li {
+        font-size: 14px;
+    }
+
+    .latest-details-content .latest-content {
+        padding-right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .MuiStepper-root.MuiStepper-horizontal {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 242px;
+    }
+
+    .MuiStepLabel-alternativeLabel {
+        margin-top: 0 !important;
+        z-index: 1000;
+    }
+
+    .MuiStepLabel-labelContainer {
+        display: none !important;
+    }
+
+    .MuiStepConnector-line {
+        display: block;
+        border-top-width: 1px;
+        position: relative;
+        left: -43px;
+        top: 12px;
+        z-index: 0;
+    }
+
+    .MuiSvgIcon-root.Mui-active {
+        content: "";
+        background-size: cover;
+        background: linear-gradient(270deg, #215cd4 -5.5%, #6ED7FB 83.6%) no-repeat center;
+        border-radius: 50%;
+        color: #01bcd4 !important;
+    }
+
+    .MuiSvgIcon-root {
+        color: rgb(32 43 83) !important;
+    }
+
+    .col-sm-6.video-col.order-first.order-md-last {
+        margin-bottom: 20px;
+    }
+
+    img.rocketBounce.apply {
+        max-width: 26vw;
+        position: relative;
+        z-index: 10;
+        margin-top: -70px;
+        left: 214px;
+        bottom: auto;
+        margin-bottom: -124px;
+    }
+
+    .MuiGrid-root.MuiGrid-container {
+        min-height: auto !important;
+    }
+
+    .sc-banner-hero {
+        padding: 115px 0 16px;
+    }
+
+    .related {
+        padding: 12px;
+        min-height: 241px;
+    }
+
+    .primaryPriceChain {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .chainPriceHeroRelated {
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: auto;
+    }
+
+    .chainPriceHeroRelated .price {
+        font-size: 18px;
+        margin-top: -6px;
+    }
+
+    img.logo-heroRelated {
+        width: 65px !important;
+    }
+
+    img.img-fluid.logo-details {
+        padding: 7px;
+        width: 52px;
+    }
+
+    .simple-glow-one:before {
+        max-width: 100%;
+    }
+
+    .simple-glow-two:before {
+        max-width: 100%;
+    }
+
+    .simple-glow-three:before {
+        max-width: 100%;
+    }
+
+    .details_project_name h2 {
+        font-size: 28px;
+    }
+
+    .related {
+        display: block;
+        -webkit-mask-image: radial-gradient(circle 41px at calc(100% - 91.8%) calc(100% - 88.7%), transparent 59px, #000 0);
+        -o-object-fit: cover;
+        border: 1.5px solid #8081D9;
+    }
+
+    .subInfo {
+        width: 100%;
+    }
+
+    .zone .logo-details {
+        width: 51px;
+    }
+
+    .related h3 {
+        font-size: 26px;
+        margin-bottom: -12px;
+    }
+
+    .image-icon {
+        padding: 27px;
+        max-width: 100%;
+        height: 0;
+        width: 492px;
+        margin: -46px auto 0;
+    }
+
+    span.text-buy {
+        margin-top: 30px;
+    }
+
+    span.divider-pr {
+        display: none;
+    }
+
+    .textandprice {
+        display: block;
+    }
+
+    .TotalRaisedProgressHeadings {
+        width: 100%;
+    }
+
+    .desktop-version {
+        display: none !important;
+    }
+
+    .previous-chaining.desktop {
+        display: none !important;
+    }
+
+    ul.nav-menu a {
+        display: block;
+        color: #ffffff;
+        padding: 0 0;
+        line-height: 34px;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'ClashGrotesk-Regular', serif;
+        width: max-content;
+        margin: 8px auto 68px auto;
+    }
+
+    .sc-banner .banner-content .banner-title {
+        font-size: 30px;
+    }
+
+    .dextools-footer-section .footer-cta-area .title, .sec-heading .title {
+        font-size: 26px;
+    }
+
+    .dextools-previous-section .previous-mainmenu ul {
+        padding: 0;
+    }
+
+    .project-menu-area .project-right-menu ul li,
+    .dextools-previous-section .previous-item,
+    body .dextools-previous-section .previous-mainmenu ul li {
+        display: block;
+    }
+
+    body .dextools-previous-section .previous-mainmenu ul li {
+        padding: 0 0 14px;
+        left: 0 !important;
+    }
+
+    .project-menu-area .project-right-menu ul li:first-child {
+        border: none;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise,
+    .dextools-previous-section .previous-item .previous-chaining,
+    .dextools-previous-section .previous-item .previous-gaming {
+        width: 100%;
+    }
+
+    body .dextools-previous-section .previous-mainmenu ul li {
+        width: 100% !important;
+    }
+
+    .dextools-previous-section .previous-item .previous-chaining {
+        margin: 25px 0;
+    }
+
+    .dextools-header-section .white-btn {
+        padding: 9px 20px 8px;
+    }
+
+    .dextools-form-content .address-form input {
+        padding: 10px 15px;
+    }
+
+    .dextools-form-content .address-form .input-button i {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .dextools-footer-section .footer-cta-area .footer-link input[type="submit"] {
+        padding: 14px 30px;
+    }
+
+    .dextools-footer-section .footer-cta-area .footer-link input[type="email"] {
+        width: 290px;
+    }
+
+    .dextools-calendar-list .calender-date {
+        width: 32%;
+    }
+
+    .project-menu-area {
+        display: block !important;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 300px;
+    }
+
+    .dextools-farming .project-menu-area ul button {
+        width: 100%;
+        text-align: left;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form,
+    .dextools-farming .project-menu-area ul button,
+    .dextools-farming .project-menu-area ul {
+        display: block;
+    }
+
+    .dextools-farming .form-switch {
+        padding: 8px 12px;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 100%;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        margin: 0 0 20px;
+    }
+
+    body .dextools-farming-table tr th,
+    body .dextools-farming-table tr td {
+        display: block;
+        width: 100% !important;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .dextools-farming-content .expeand-centent .expeand-menu ul li {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    .leaderboard-table-list table,
+    .igo-rankging-table-list table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .leaderboard-table-list tr {
+        display: flex;
+    }
+
+    .igo-rankging-table-list tr th:nth-child(1),
+    .igo-rankging-table-list tr td:nth-child(1) {
+        min-width: 65px;
+    }
+
+    .leaderboard-table-list tr th:nth-child(3),
+    .leaderboard-table-list tr td:nth-child(3) {
+        min-width: 160px;
+    }
+
+    .leaderboard-table-list tr th:nth-child(2),
+    .leaderboard-table-list tr td:nth-child(2) {
+        min-width: 140px;
+    }
+
+    .leaderboard-table-list tr th:nth-child(1),
+    .leaderboard-table-list tr td:nth-child(1),
+    .leaderboard-table-list tr th:nth-child(4),
+    .leaderboard-table-list tr td:nth-child(4) {
+        min-width: 100px;
+    }
+
+    .igo-rankging-table-list tr th:last-child,
+    .igo-rankging-table-list tr td:last-child {
+        min-width: 80px;
+    }
+
+    .igo-rankging-table-list tr td:nth-child(1) {
+        padding-left: 8px;
+    }
+
+    .project-details-content .banner-bottom-content .social-icon-list li i {
+        padding-left: 5px;
+    }
+
+    .project-details-content .project-value-inner .project-value-image {
+        margin-top: 15px;
+    }
+
+    .project-meta-item .meta-counter h3,
+    .project-details-content .project-item h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .project-meta-inner .meta-header p {
+        margin-bottom: 0;
+    }
+
+    .breadcrumbs-form .dextools-navigation ul {
+        justify-content: flex-start;
+    }
+
+    .loader_first .circular-spinner {
+        left: 45%;
+    }
+
+    .GetInTouch_Contuct_Content {
+        padding-top: 20px;
+    }
+
+    .GetInTouch_Contuct_Sect {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 330px;
+        width: 100%;
+        padding-left: 0;
+        margin: 40px auto auto;
+    }
+
+    /*New CSS*/
+    .blog-detail-content .blog-area .Tokenomics-item .project-service {
+        display: block !important;
+        text-align: center;
+        padding-left: 130px;
+    }
+
+    .blog-detail-content .blog-area .Tokenomics-item .project-service .project-image img {
+        margin-right: 140px;
+        margin-bottom: 30px;
+    }
+
+    .blog-detail-content .blog-area .comment-item .blog-comments {
+        margin-right: 25px;
+        left: 0;
+    }
+
+    .dextools-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+        font-size: 40px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .blockquote .des-active {
+        font-size: 15px;
+    }
+
+    .blog-detail-content .blog-area .comment-item .blog-comment .blog-replay {
+        display: block;
+    }
+
+    .blog-detail-content .blog-area .comment-item .blog-comment .blog-replay .replay-image img {
+        margin-bottom: 15px;
+        padding-left: 25px;
+    }
+
+    .dextools-footer-section .footer-cta-area .title, .sec-heading .title {
+        font-size: 22px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .des {
+        font-size: 18px;
+    }
+
+    .latest-details-content .latest-blog-area .latest-image img {
+        min-width: 100%;
+    }
+
+    .blog-detail-content .blog-area .about-blog .blog-contact .previous-item {
+        display: block;
+    }
+
+    .blog-detail-content .blog-area .about-blog .blog-contact .next-item {
+        display: block;
+    }
+
+    .blog-detail-content .blog-area .comment-item .blog-comments {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .V1_tokenomics_content_List_Sect {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .V1_tokenomics_content_List {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .V1_tokenomics_content_ListText {
+        min-width: 91px;
+    }
+
+    .V1_tokenomics_content_List_1, .V1_tokenomics_content_List_2, .V1_tokenomics_content_List_3, .V1_tokenomics_content_List_4, .V1_tokenomics_content_List_5, .V1_tokenomics_content_List_6, .V1_tokenomics_content_List_7 {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .V1_tokenomics_content_ListText h5 {
+        margin-bottom: 0;
+    }
+
+    .V1_tokenomics_content_ListProgress1 {
+        width: 100px;
+    }
+
+    .V1_tokenomics_content_ListProgress2 {
+        width: 120px;
+    }
+
+    .V1_tokenomics_content_ListProgress3 {
+        width: 130px;
+    }
+
+    .V1_tokenomics_content_ListProgress4 {
+        width: 160px;
+    }
+
+    .V1_tokenomics_content_ListProgress5 {
+        width: 190px;
+    }
+
+    .V1_tokenomics_content_ListProgress6 {
+        width: 200px;
+    }
+
+    .V1_tokenomics_content_ListProgress7 {
+        width: 270px;
+    }
+
+    .V1_tokenomics_content_ListText {
+        margin-bottom: 0;
+    }
+
+    .V1_tokenomics_content_ListText h4, .V1_tokenomics_content_ListText h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .V1_tokenomics_content_ListProgress {
+        height: 40px;
+    }
+
+
+    .dextools-previous-section .previous-mainmenu ul .list1.list1Custom {
+        width: 31%;
+    }
+
+
+    .dextools-previous-section .previous-mainmenu ul .list2.list2Custom,
+    .dextools-previous-section .previous-mainmenu ul .list3.list3Custom,
+    .dextools-previous-section .previous-mainmenu ul .list4.list4Custom,
+    .dextools-previous-section .previous-mainmenu ul .list5.list5Custom,
+    .dextools-previous-section .previous-item .previous-gaming.list1Custom,
+    .dextools-previous-section .previous-item .previous-chaining.list2Custom,
+    .dextools-previous-section .previous-item .previous-EndsIn.list3Custom,
+    .dextools-previous-section .previous-item .previous-raise.list4Custom,
+    .dextools-previous-section .previous-item .previousProgress.list5Custom {
+        width: 100%;
+    }
+
+    .ProjectClasicCustomProgressSect .ProgressBg {
+        max-width: 90%;
+    }
+
+    .ProjectClasicSlider_ImgAndTitleSect {
+        flex-direction: column;
+    }
+
+    .ProjectClasicSlider_TextSect {
+        margin-left: 0;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .ProjectClasicSlider_RightTimer h2 {
+        text-align: center;
+    }
+
+    .ProjectClasicSlider_ClaimBtn {
+        text-align: center;
+        position: absolute;
+        bottom: 110px;
+        width: 100%;
+        left: 0;
+    }
+
+    .ProjectClasicSliderSocialLinks {
+        margin: 130px auto auto;
+    }
+
+    .V3Project_clasic_2Container_RightSect {
+        padding: 0 30px 30px 30px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+    .kycForm .UploadDocSect ul li h4 {
+        width: 80%;
+        line-height: 158%;
+        margin: 16px auto auto;
+    }
+
+    .kycForm .UploadDocSect .upload-btn-wrapper span {
+        height: 60px;
+        width: 60px;
+    }
+
+    .kycForm .UploadBtnBg {
+        height: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dextools_Header_contentright {
+        margin-top: 24px;
+    }
+
+    .kycCountryDropbox, .KycRadioBtn, .kycForm button {
+        max-width: 100%;
+    }
+
+    .kycQrcodeSect {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .kycQrcode_content h2 {
+        text-align: center;
+    }
+
+    .TeamDetailsImg {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .TeamMembersInfo {
+        padding-left: 0;
+    }
+
+    .kycForm .UploadDocSect ul, .UploadDocCheckList, .NidNumberSect form input {
+        max-width: 100%;
+    }
+
+    .kycForm {
+        padding: 20px 0;
+    }
+
+    .KycYourDocumentsSect {
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .KycYourDocumentsContent h3 {
+        text-align: center;
+    }
+
+    .RoadMapSect {
+        height: auto;
+    }
+
+    .RoadmapContentBox {
+        margin-top: 50px;
+    }
+
+    .RodmapLeftConetent {
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .RodmapRightConetent {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .Roadmap2022 {
+        margin-top: 100px;
+    }
+
+    .roadmap2021Divider {
+        display: none;
+    }
+
+    .roadmap2022Divider {
+        display: none;
+    }
+
+    .Roadmap2021 {
+        margin-top: 40px;
+    }
+
+    .dextools_V2_hero_right {
+        margin: 50px auto auto;
+    }
+
+    .Market_CapContent h2 {
+        font-family: Russo One, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 45px;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .Market_CapContent h3 {
+        font-family: Russo One, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #6D4AFE;
+        margin-bottom: 0;
+    }
+
+    .TokenomicsListSect ul {
+        margin-right: 80px;
+    }
+
+    .Multi_Chain_Support_right_list ul {
+        margin-right: 60px;
+    }
+
+    .Multi_Chain_Support_Left_Sect {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .FAQquestions .accordion {
+        font-size: 16px;
+        padding: 24px 20px;
+        height: auto;
+    }
+
+    .FAQquestions .accordion-panel p {
+        font-size: 13px;
+    }
+
+    .dextoolssubscriveSect input {
+        max-width: 300px;
+        height: 52px;
+    }
+
+    .ProjectV2_TabBtns ul li button {
+        width: 100px;
+        padding: 0 !important;
+    }
+
+    .RoadmapTabBtns ul li button {
+        width: 90px;
+    }
+
+    .Tier_System_Headings ul {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 26px;
+        flex-direction: column;
+        width: auto;
+        align-items: flex-start;
+    }
+
+    .Tier_System_Headings ul li {
+        font-size: 16px;
+    }
+
+    .Tier_System_Items ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Tier_System_Items ul li strong {
+        font-size: 16px;
+    }
+
+    .Tier_System_Items ul li {
+        font-size: 16px;
+        margin-bottom: 16px;
+        width: auto !important;
+    }
+
+    .Tier_System_Items ul li span {
+        min-width: 40px;
+        max-width: 40px;
+    }
+
+    .Tier_System_Items ul li.WeightItem {
+        margin-bottom: 0;
+    }
+
+    .Tier_System_Items .bgShape {
+        left: 17%;
+    }
+
+    .slick-prev {
+        left: 0;
+        top: 0;
+    }
+
+    .slick-next {
+        left: 0;
+        top: 0;
+    }
+
+    .sc_banner_V3_right ul {
+        margin-bottom: 50px;
+    }
+
+    .dextoolsV3_ProjectPoolsBtn li button {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .How_to_Participate_right_Contnet {
+        margin-top: 50px;
+    }
+
+    .RoadMapShape {
+        display: none;
+    }
+
+    .TokenomicsContentsLeftCustom {
+        margin-left: 0;
+    }
+
+    .TvlRightCard {
+        margin: 30px auto auto;
+    }
+
+    .TvlHeadings {
+        width: 170px;
+        margin: auto;
+    }
+
+    .TvlSect {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .TvlHeadings span {
+        position: absolute;
+        top: -45px;
+        left: 0;
+    }
+
+    .TiedV2CollBody {
+        padding: 0 19px;
+    }
+
+    .TierV2_Col {
+        margin-bottom: 100px;
+    }
+
+    .tierV2ColHeadings, .TiedV2CollBody {
+        padding: 0;
+    }
+
+    .TiedV2CollBody1:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 320px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .TiedV2CollBody2:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 395px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .TiedV2CollBody3:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 455px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .TiedV2CollBody4:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 515px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .ConnectWallet_Btn span {
+        min-width: 24px;
+        max-width: 24px;
+        margin-right: 10px;
+    }
+
+    .ConnectWallet_Btn {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .ConnectWallet_Btn:before {
+        top: 20px;
+        right: 16px;
+    }
+
+    .ChooseNetwork_Sect ul {
+        flex-wrap: wrap;
+    }
+
+    .ChooseNetwork_Sect ul li {
+        width: 47%;
+        margin-bottom: 16px;
+    }
+
+    .Latest_Articles_Card {
+        min-height: auto;
+    }
+
+    .FAQ_Screen_Tab_Sect {
+        padding-right: 0;
+    }
+
+    .FAQ_Screen_Tab_Content {
+        padding-left: 0;
+    }
+
+    .FAQContnetSect .accordion {
+        font-size: 18px;
+        padding-right: 25px;
+    }
+
+    .FAQContnetSect .accordion-panel p {
+        font-size: 14px;
+    }
+
+
+    .ProjectClasicSliderContent {
+        flex-direction: column;
+    }
+
+    .ProjectClasicSlider_RightSect {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .ProjectClasicSliderLeftSect {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .Access_AllocationText {
+        align-items: flex-start;
+    }
+
+    .ProjectClasicSlider_RightTimer {
+        margin-bottom: 20px;
+    }
+
+    .ProjectClasicSlider_progressSect {
+        margin-top: 40px;
+    }
+
+    .Project_clasicSliderSect .ProjectClasicPrev {
+        left: -10%;
+    }
+
+    .Project_clasicSliderSect .ProjectClasicNxt {
+        right: -10%;
+    }
+
+    .Project_clasicSliderSect .ProjectClasicPrev img, .Project_clasicSliderSect .ProjectClasicNxt img {
+        height: 30px;
+    }
+
+    .liveProoject_Headings {
+        max-width: 220px;
+    }
+
+    .liveProoject_Headings .video__icon {
+        top: 0;
+    }
+
+    .liveProoject_Headings h2 {
+        font-size: 22px;
+    }
+
+
+    .Project_clasic_2Container_RightSect {
+        margin-top: 30px;
+    }
+
+    .Project_clasic_2Container_RightHeadings h2 {
+        margin-bottom: 10px;
+    }
+
+    .Project_clasic_2Container_RightHeadings h2 a {
+        font-size: 27px;
+    }
+
+
+    .PoolAndTokenInfo_Sect {
+        margin-top: 40px;
+    }
+
+    .details_project_right_section {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .PoolAndTokenInfo_card {
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .related {
+        min-height: 37vh;
+        width: 32vw;
+    }
+
+    .simple-glow-one:before {
+        right: -125vw;
+        width: 154vw;
+        height: 160vh;
+        content: ' ';
+        position: absolute;
+        z-index: 1;
+        background: radial-gradient(circle at 22% 49%, rgba(0, 255, 255, 1), transparent 20%);
+        top: 30vh;
+        opacity: 0.3;
+    }
+
+    .simple-glow-two:before {
+        left: -36vw;
+        width: 154vw;
+        height: 160vh;
+        content: ' ';
+        position: absolute;
+        z-index: 0;
+        background: radial-gradient(circle at 20% 49%, #4f51f0, transparent 20%);
+        top: -30vh;
+        opacity: 0.4;
+    }
+
+    .simple-glow-three:before {
+        right: -125vw;
+        width: 154vw;
+        height: 160vh;
+        content: ' ';
+        position: absolute;
+        z-index: 1;
+        background: radial-gradient(circle at 22% 49%, rgba(0, 255, 255, 1), transparent 20%);
+        top: 10vh;
+        opacity: 0.3;
+    }
+
+    .mobile-version {
+        display: none !important;
+    }
+
+    .mui-step-form {
+        max-width: 63vw;
+    }
+
+    .mui-step-form {
+        display: flex;
+    }
+
+    .navigation-zone {
+        max-width: 34%;
+        padding: 60px;
+    }
+
+    .step-zone {
+        width: 66%;
+        padding: 45px 60px;
+    }
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 619px) {
+    .kycForm .UploadDocSect ul li h4 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .features-gov {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .govern .gover-features {
+        padding: 17px 26px 17px 26px;
+        width: 70%;
+    }
+
+    h1.banner-title {
+        font-size: 11.6vw;
+        line-height: 12vw;
+        font-weight: 600;
+    }
+
+    .mui-step-form {
+        max-width: 100%;
+    }
+
+    .step-zone, .navigation-zone {
+        max-width: 100%;
+    }
+
+    .step-zone, .navigation-zone {
+        padding: 25px;
+    }
+
+    .mui-step-form {
+        display: block;
+    }
+
+    span.percentaje-row {
+        bottom: 20%;
+    }
+
+    .dextools-previous-section .previous-item {
+        padding: 29px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise span {
+        margin-right: 36px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise .progress-inner {
+        margin-top: 2px;
+    }
+
+    .copyright p {
+        margin-bottom: 4px;
+    }
+
+    .mobile-left {
+        float: left;
+    }
+
+    .dextools-previous-section .previous-item .previous-gaming img {
+        width: 56px;
+    }
+
+    .dextools-previous-section .previous-item .previous-chaining img {
+        margin-right: 10px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise .progress-inner {
+        width: 100%;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise span {
+        margin-right: 33px;
+    }
+
+    .cd-breadcrumb, .cd-multi-steps {
+        margin: 31px auto 20px auto !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    section.stepKYC {
+        max-width: 91vw !important;
+        height: 100% !important;
+        padding-bottom: 40px;
+        padding-top: 16px;
+    }
+
+    .sec-heading.we-are {
+        display: block;
+    }
+
+    img.bot {
+        max-width: 81px;
+        display: inline-block;
+        position: absolute;
+        margin-top: -159px;
+        right: 87px;
+        top: auto;
+    }
+
+    img.botMac {
+        max-width: 83px;
+        display: inline-block;
+        top: -32px;
+        position: absolute;
+        right: 74px;
+    }
+
+    p.kytext {
+        margin: 6px auto 20px auto !important;
+    }
+
+    h2.title {
+        text-align: center;
+    }
+
+    nav.navi-desktop {
+        display: none;
+    }
+
+    .stepKYC li {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .stepKYC h4.title {
+        margin-bottom: 0;
+    }
+
+    .container-hero {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-hero h1 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    .sc-banner-hero {
+        min-height: 50vh;
+    }
+
+    .video-col video {
+        max-width: 299px;
+        position: relative;
+        bottom: -7px;
+        filter: hue-rotate(69deg);
+    }
+
+    h1.banner-title {
+        margin-bottom: 15px;
+        text-align: left;
+        margin-top: -65px;
+    }
+
+    img.dextforce {
+        max-width: 89px !important;
+    }
+
+    .ecosystem-brands img {
+        max-width: 115px;
+        margin-top: 32px;
+        padding-right: 23px;
+        filter: brightness(20);
+        margin-right: 5px;
+    }
+
+    .ecosystem {
+        margin-top: 50px !important;
+        font-size: 15px !important;
+    }
+
+    .hero p {
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 34px;
+        color: white;
+        text-align: left;
+    }
+
+    .dextools-previous-section .row.align-items-center::before {
+        display: none;
+    }
+
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    h5.heading {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px !important;
+    }
+
+    p.apply {
+        font-size: 17px;
+        line-height: 26px;
+        font-family: 'ClashGrotesk-Light', serif;
+    }
+
+    img.rocketBounce {
+        max-width: 204px;
+        position: relative;
+        bottom: 7px;
+        z-index: 10;
+        left: 29vw;
+    }
+
+    .row.copyright {
+        padding-top: 28px;
+    }
+
+    .footer-area li {
+        font-size: 17px;
+    }
+
+    .sc-banner .banner-content .banner-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .sc-banner .banner-content .description {
+        font-size: 16px;
+        margin: 0 0 30px;
+    }
+
+    .view-more {
+        padding: 12px 24px 8px 31px;
+        display: block;
+    }
+
+    .sec-inner.d-flex,
+    .heading-area.d-flex {
+        display: block !important;
+        margin-bottom: 8px;
+    }
+
+    .dextools-tokenomics-section .pr-63, .dextools-tokenomics-section h5 {
+        margin-bottom: 0;
+    }
+
+    .dextools-footer-section .footer-listing .footer-icon-list i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 4px;
+        font-size: 15px;
+    }
+
+    .dextools-footer-section .footer-cta-area .footer-link input[type="email"] {
+        padding: 12px 15px;
+    }
+
+    .project-summary-menu {
+        margin-bottom: 55px;
+    }
+
+    .dextools-calendar-list .calender-date {
+        width: 48%;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form {
+        display: block;
+    }
+
+    .breadcrumbs-form .dextools-navigation {
+        margin: 30px 0 0;
+    }
+
+    .breadcrumbs-form .dextools-navigation ul li {
+        margin-right: 15px;
+    }
+
+    .breadcrumbs-form .dextools-navigation ul {
+        justify-content: flex-start;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 100%;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-form form {
+        margin: 0;
+    }
+
+    .kycQrcodeImg {
+        height: 280px;
+        width: 280px;
+    }
+
+    .kycForm h3 {
+        font-size: 19px;
+    }
+
+    .kycForm p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .kycCountryDropbox h4 {
+        font-size: 14px;
+    }
+
+    .kycForm {
+        padding: 0;
+    }
+
+    .kycForm .UploadDocSect ul li h4 {
+        width: 60%;
+        line-height: 158%;
+        margin: 16px auto auto;
+    }
+
+    .Market_CapSect .redBordergradient {
+        top: -148px;
+        left: 148px;
+        width: 5px;
+        height: 300px;
+    }
+
+    .Market_CapSect .greenBordergradient {
+        bottom: -148px;
+        right: 148px;
+        width: 5px;
+        height: 300px;
+    }
+
+    .ProjectV2_TabBtns ul {
+        justify-content: flex-start;
+    }
+
+    .RoadmapTabBtns ul {
+        justify-content: flex-start;
+    }
+
+    .Tier_System_Items .bgShape {
+        left: 14%;
+    }
+
+    .dextoolsV3_ProjectPoolsBtn {
+        justify-content: flex-start;
+    }
+
+    /*New CSS*/
+    .blog-detail-content .blog-area .blog-description .blockquote .des-active {
+        font-size: 18px;
+    }
+
+    .blog-detail-content .previous-item .previous-text h5 {
+        font-size: 15px;
+    }
+
+    .blog-detail-content .blog-area .blog-description .des {
+        font-size: 17px;
+    }
+
+    .tokenomics-counter {
+        text-align: center;
+    }
+
+    .Project_clasicSliderSect .ProjectClasicPrev {
+        left: 0;
+    }
+
+    .Project_clasicSliderSect .ProjectClasicNxt {
+        right: 0;
+    }
+
+    .ProjectClasicSlider_TextSect h3 a {
+        font-size: 25px;
+    }
+
+    .liveProoject_Headings {
+        max-width: 220px;
+    }
+
+    .liveProoject_Headings h2 {
+        font-size: 22px;
+    }
+
+    .liveProoject_Headings .video__icon {
+        top: 0;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .dextoolssubscriveSect input {
+        margin-bottom: 20px;
+    }
+
+    .dextoolssubscriveSect {
+        flex-direction: column;
+    }
+
+    .project_details_left_timer {
+        width: 245px;
+        height: 40px;
+    }
+
+    .project_details_left_timer .price-counter ul {
+        width: max-content;
+        padding-top: 2px;
+    }
+
+    .project_details_left_timer .price-counter ul li {
+        font-size: 17px;
+    }
+
+    .project_details_left_timer .price-counter ul li span {
+        font-size: 10px;
+    }
+
+    .project_details_left_section .ChainImg {
+        width: 40px;
+    }
+
+    .details_project_name h2 {
+        margin-bottom: 0;
+    }
+
+    .details_project_name h2 a {
+        font-size: 23px;
+    }
+
+    .details_project_name span {
+        font-size: 15px;
+    }
+
+
+    .details_project_right_section p {
+        font-size: 17px;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .project_details_btn button {
+        font-size: 13px;
+        height: 40px;
+    }
+
+
+    .PoolAndTokenInfo_List ul li p.PoolAndTokenInfo_ListRight span {
+        margin-right: 15px;
+    }
+
+    .ProjectDetails2_ScheduleTableHeadings ul li, .ProjectDetails2_ScheduleTablebody ul li, .ProjectDetails2_AllocationsTableHeadings ul li, .ProjectDetails2_AllocationsTableBody ul li {
+        font-size: 12px;
+    }
+
+    .ProjectDetails2_ScheduleTableHeadings, .ProjectDetails2_ScheduleTablebody ul, .ProjectDetails2_AllocationsTableHeadings, .ProjectDetails2_AllocationsTableBody ul {
+        height: 40px;
+    }
+
+    .ProjectDetails2_ScheduleTableHeadings, .ProjectDetails2_ScheduleTablebody, .ProjectDetails2_AllocationsTableHeadings, .ProjectDetails2_AllocationsTableBody {
+        min-width: 800px;
+    }
+
+    .ProjectDetails2_AllocationsTableBody ul li.column_5 button {
+        height: 33px;
+        width: 85px;
+        font-size: 12px;
+    }
+
+    .ProjectDetails2_AllocationsTableBody ul li.column_5 button {
+        height: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .kycForm .UploadDocSect ul li h4 {
+        width: 100px;
+        line-height: 158%;
+        margin: 16px auto auto;
+    }
+
+    .dextools_V2_hero_Left h2 {
+        font-size: 33px;
+    }
+
+    .dextools_V2_hero_Left p {
+        font-size: 15px;
+    }
+
+    .buyTokenlogos ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .buyTokenlogos ul li {
+        width: 47%;
+        margin-right: 0;
+        margin-bottom: 26px;
+    }
+
+    .Market_CapAllContent {
+        justify-content: space-around;
+    }
+
+    .Market_CapContent {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .Tier_System_Items .bgShape {
+        left: 12%;
+    }
+
+    .dextools_FAQ_Sect .sec-heading .sub-title {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .slick-next, .slick-prev {
+        display: none !important;
+    }
+
+    .slick-dots {
+        bottom: 17px;
+    }
+
+    .slick-slider {
+        margin-top: 0;
+    }
+
+    img.rocketHero, .homeBounce {
+        max-width: 51%;
+        margin-top: 40px;
+    }
+
+    .homeBounce {
+        max-width: 80%;
+        margin-top: 42px;
+    }
+
+    h3.homeh3 {
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    h4.home {
+        font-size: 15px;
+        font-weight: 100 !important;
+        color: #b4b4b4;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .dextools-header-section.active .dextools-logo-area.align-items-center {
+        top: 1vh;
+    }
+
+    .dextools-header-section .logo {
+        margin-right: 30px;
+    }
+
+    .dextools-header-section .white-btn {
+        display: none;
+    }
+
+    .footer-logo img,
+    .sidebar-logo img,
+    .dextools-header-section .logo img {
+        max-width: 192px;
+    }
+
+    .dextools-header-section .dextools-btn-area ul .nav-expander {
+        margin-top: 0;
+    }
+
+    .sc-banner {
+        padding-top: 120px;
+    }
+
+    .dextools-header-section .right_menu_togle {
+        padding: 100px 30px 50px 30px;
+    }
+
+    .dextools-header-section .mobile-navbar-menu .nav-menu li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        display: block;
+        color: #ffffff;
+        padding: 10px 0;
+        line-height: 57px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .dextools-header-section .right_menu_togle .close-btn {
+        right: 0;
+    }
+
+    .dextools-header-section .right_menu_togle {
+        max-width: 100vw;
+    }
+
+    .sc-banner .banner-content .banner-title {
+        font-size: 24px;
+    }
+
+    .dextools-project-section .dextools-btn-area .readon,
+    .banner-btn {
+        padding: 9px 24px 8px;
+    }
+
+    .dextools-about-section .game-price-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner-slider-inner .timer ul li {
+        font-size: 26px;
+    }
+
+    .apply-heading h2,
+    .dextools-footer-section .footer-cta-area .title,
+    .sec-heading .title {
+        font-size: 36px;
+    }
+
+    .participat-information .project-value-inner {
+        display: block !important;
+    }
+
+    .dextools-footer-section .footer-cta-form form,
+    .project-details-content .banner-bottom-content,
+    .dextools-previous-section .previous-item .previous-raise,
+    .dextools-previous-section .previous-item .previous-gaming {
+        display: block;
+    }
+
+    .dextools-previous-section .previous-item .previous-gaming {
+        margin-bottom: 15px;
+    }
+
+    .dextools-previous-section .previous-item .previous-raise {
+        margin-top: 10px;
+        border-top: 1px solid rgba(128, 129, 217, 0.11);
+        padding-top: 20px;
+    }
+
+    .previous-gaming {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .dextools-previous-section .previous-item .previous-gaming img {
+        margin-right: 18px;
+        max-height: 100%;
+        background: #696d83;
+        padding: 12px;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .previous-gaming {
+        padding-bottom: 25px;
+        border-bottom: 1px solid rgba(128, 129, 217, 0.11);
+    }
+
+    .dextools-explore-content .project-item h4 {
+        font-size: 18px;
+    }
+
+    .dextools-about-section .game-price-item .price-details h3 {
+        font-size: 20px;
+    }
+
+    .dextools-footer-section .footer-mainmenu ul li {
+        padding: 0 0 10px;
+    }
+
+    .dextools-footer-section .footer-mainmenu ul li,
+    .dextools-tokenomics-section .tokenomics-item,
+    .dextools-project-section .project-item .project-info {
+        display: block !important;
+    }
+
+    .dextools-project-section .project-item .project-info img {
+        margin: 0 0 10px;
+    }
+
+    .dextools-tokenomics-section .tokenomics-menu {
+        padding: 0 0 20px;
+    }
+
+    .tokenomics-counter .counter-number {
+        font-size: 28px;
+    }
+
+    .sec-heading .heading-right-image,
+    .sec-heading .heading-left-image {
+        max-width: 60px;
+    }
+
+    .sec-heading .heading-right-image,
+    .sec-heading .heading-left-image,
+    .sec-heading .sub-title {
+        margin: 0;
+    }
+
+    .dextools-footer-section .footer-listing .footer-icon-list i {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        margin: 0 2px;
+        font-size: 13px;
+    }
+
+    .dextools-team-section .team-item {
+        margin-bottom: 20px;
+    }
+
+    .dextools-form-content .address-form h5,
+    .dextools-form-content .address-form .input-button label {
+        font-size: 13px;
+    }
+
+    .dextools-explore-content .project-menu-area ul li,
+    .dextools-calendar-list .calender-date {
+        width: 100%;
+    }
+
+    .dextools-explore-content .project-menu-area ul {
+        display: block;
+    }
+
+    .dextools-explore-content .project-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .dextools-explore-content .project-item .heading-title h4:before {
+        left: -15px;
+    }
+
+    .dextools-farming-content .expeand-centent {
+        padding: 20px 15px;
+    }
+
+    .dextools-navigation ul li a:not(.black-shape) {
+        padding: 3px 12px;
+    }
+
+    .dextools-navigation ul li:first-child a {
+        padding: 3px 12px 3px;
+    }
+
+    .dextools-breadcrumbs-section .breadcrumbs-link,
+    .sec-heading .sub-title {
+        font-size: 14px;
+    }
+
+    .breadcrumbs-form .dextools-navigation ul li:first-child a,
+    .dextools-breadcrumbs-section .dextools-navigation ul li a {
+        padding: 6px 15px;
+    }
+
+    .project-details-content table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .project-details-content table td {
+        font-size: 14px;
+    }
+
+    .participat-information .project-item h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .participat-information .project-item h4 {
+        font-size: 18px;
+    }
+
+    .project-details-content .project-item .date-listing li label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .project-details-content .project-item .date-listing li {
+        display: block;
+    }
+
+    .project-details-content .project-item .date-listing li + li {
+        margin-left: 0;
+    }
+
+    .project-details-content .project-media li span {
+        float: none;
+        display: block;
+    }
+
+    .participat-information .project-value-inner .project-value {
+        margin-bottom: 10px;
+    }
+
+    .project-details-content .project-item .project-form-list .balance-form-area .white-shape-small,
+    .project-details-content .project-item .big-text {
+        position: static;
+    }
+
+    .dextools-about-section .game-price-item .text-content {
+        margin: 10px 0;
+    }
+
+    .dextools-about-section .game-price-item .social-icon-list,
+    .dextools-about-section .game-price-item .text-content {
+        text-align: left;
+    }
+
+    .dextools-footer-section .footer-cta-form .footer-link input[type="email"] {
+        margin-bottom: 20px;
+    }
+
+    .dextools-footer-section .footer-cta-form .footer-link input[type="email"],
+    .dextools-about-section .game-price-item .btn-area,
+    .dextools-about-section .game-price-item .text-content,
+    .dextools-about-section .game-price-item .social-area,
+    .project-details-content .project-item .project-form-list .balance-form-area input,
+    .project-details-content .project-item .project-form-list .balance-form-area input[type="submit"],
+    .project-details-content .project-item .project-form-list .balance-form-area .approve input[type="submit"] {
+        width: 100%;
+    }
+
+    .project-details-content .project-item ul.date-listing {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project-details-content .project-item ul.date-listing li {
+        width: 24%;
+    }
+
+    .project-details-content .project-item ul.date-listing li button {
+        font-size: 10px;
+        width: 100%;
+        height: 100%;
+        padding: 12px 0;
+    }
+
+    .dextools_Header_ProgressBar .progress {
+        width: 290px;
+    }
+
+    .TeamMembersInfo h2 {
+        font-size: 30px;
+    }
+
+    .TeamMembersInfo h3 {
+        font-size: 20px;
+    }
+
+    .TeamMembersInfo p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .TeamMembersContact ul li strong {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .TeamMembersContact ul li span {
+        font-size: 14px;
+    }
+
+    .kycForm .UploadBtnBg {
+        height: 130px;
+    }
+
+    .kycForm .UploadDocSect .upload-btn-wrapper span {
+        height: 50px;
+        width: 50px;
+    }
+
+    .kycPersonalinfoForm form .InputNameSect, .kycPersonalinfoForm form .InputAddressSect, .kycPersonalinfoForm form .InputCitySect {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .kycPersonalinfoForm form .InputNameSect .FirstNameFild, .kycPersonalinfoForm form .InputNameSect .LastNameFild, .kycPersonalinfoForm form .InputAddressSect .Address1Fild, .kycPersonalinfoForm form .InputAddressSect .Address2Fild, .kycPersonalinfoForm form .InputCitySect .CityFild, .kycPersonalinfoForm form .InputCitySect .PostCodeFild {
+        width: 100%;
+    }
+
+    .SignUp_SignIn_Form {
+        padding: 63px 20px 56px 20px;
+    }
+
+    .SignUp_SignIn_Form h4, .SignUp_SignIn_Form h4 a {
+        font-size: 14px;
+    }
+
+    .RoadmapContentBox1 {
+        min-height: 158px;
+        background: url(../images/kycimg/roadMapcpntentBg1.svg) right;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox2 {
+        min-height: 185px;
+        background: url(../images/kycimg/roadMapcpntentBg5.svg) left;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox3 {
+        min-height: 158px;
+        background: url(../images/kycimg/roadMapcpntentBg2.svg) right;
+        background-size: cover;
+    }
+
+    .RoadmapContentBox4 {
+        min-height: 216px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg6.svg) no-repeat left;
+    }
+
+    .RoadmapContentBox5 {
+        min-height: 260px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg3.svg) no-repeat right;
+    }
+
+    .RoadmapContentBox6 {
+        min-height: 230px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg7.svg) no-repeat left;
+    }
+
+    .RoadmapContentBox7 {
+        min-height: 185px;
+        background-size: cover;
+        background: url(../images/kycimg/roadMapcpntentBg4.svg) no-repeat right;
+    }
+
+
+    .connectWalletBtnforMobile {
+        display: block;
+    }
+
+    .Multi_Chain_Support_right_list ul {
+        margin-right: 40px;
+    }
+
+    .ProjectV2_TabBtns ul li {
+        margin-left: 10px;
+    }
+
+    .ProjectV2_TabBtns ul li button {
+        width: 92px;
+    }
+
+    .ProjectV2_TabBtns ul li button .btn-text {
+        font-size: 12px;
+    }
+
+    .RoadmapTabBtns ul li {
+        margin-left: 10px;
+    }
+
+    .Tier_System_Items .bgShape {
+        left: 10%;
+    }
+
+    .sc_banner_V3_left h2 {
+        font-size: 35px;
+    }
+
+    .ConnectWallet_Card_Headings h2 {
+        font-size: 31px;
+        margin-bottom: 16px;
+    }
+
+    .ConnectWallet_Card_Headings p, .ConnectWallet_Content p {
+        font-size: 14px;
+    }
+
+
+    /*New CSS*/
+    .latest-details-content .latest-item p {
+        font-size: 13px;
+    }
+
+    .post-item .recent-content, .blog-detail-content .tag-menu ul li {
+        display: block;
+    }
+
+    .post-item .post-shade h4 {
+        font-size: 20px;
+    }
+
+    .latest-details-content .tag-menu ul li {
+        display: block;
+    }
+
+    .newsletter-item.hover-shape-inner .hover_shape1 {
+        left: 10%;
+    }
+
+    .newsletter-item.hover-shape-inner .hover_shape2 {
+        left: 56.5%;
+    }
+
+    .newsletter-item.hover-shape-inner .hover_shape3 {
+        left: 32%;
+    }
+
+    .blog-detail-content .blog-area .Tokenomics-item .project-service {
+        padding-left: 40px;
+    }
+
+    .dextools-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+        font-size: 25px;
+    }
+
+    .blog-detail-content .blog-area .about-blog .about-menu .about-list .about-listing li,
+    .blog-detail-content .blog-area .about-blog .about-menu {
+        display: block;
+    }
+
+    .blog-detail-content .blog-area .about-blog .about-menu .about-list .about-listing li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .blog-detail-content .blog-area .about-blog .blog-contact {
+        display: block;
+    }
+
+    .blog-detail-content .blog-area .about-blog .blog-contact .previous-item {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .latest-details-content .latest-item p {
+        font-size: 14px;
+    }
+
+    .ProjectClasicSliderBG {
+        padding: 30px;
+    }
+
+
+    .Project_clasic_2Container_RightHeadings h2 {
+        margin-bottom: 5px;
+    }
+
+    .Project_clasic_2Container_RightHeadings h2 a {
+        font-size: 22px;
+    }
+
+    .Project_clasic_2Container_RightHeadings p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .Project_clasic_2Container_RightHeadings span {
+        height: 30px;
+        width: 30px;
+    }
+
+    .TotalRaisedProgressHeadings h3, .TotalRaisedProgressHeadings p {
+        font-size: 12px;
+    }
+
+    .TotalRaisedProgressSaleAirdropSect p {
+        font-size: 12px;
+    }
+
+    .Access_Allocation_ParticipantsSect ul li span {
+        font-size: 12px;
+    }
+
+    .Access_Allocation_ParticipantsSect ul li p {
+        font-size: 15px;
+    }
+
+    .Project_clasic_2ContainerSocialSect ul {
+        max-width: 200px;
+    }
+
+    .Project_clasic_2ContainerSocialSect ul li a i {
+        font-size: 16px;
+    }
+
+    .Project_clasic_2_ContainerLeft {
+        min-height: 335px;
+    }
+
+    .Access_Allocation_ParticipantsSect {
+        margin-top: 10px;
+    }
+
+    .Project_clasic_2ContainerSocialSect {
+        margin-top: 35px;
+    }
+
+    .ProjectClasic2_Timer {
+        width: 210px;
+    }
+
+    .Project_clasic_2_LeftContentImg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul {
+        max-width: 140px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul li {
+        font-size: 13px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul li span {
+        font-size: 10px;
+    }
+
+
+}
+
+
+@media (max-width: 425px) {
+    .Tier_System_Items .bgShape {
+        left: 15px;
+    }
+
+    .ConnectWallet_Card {
+        padding: 50px 20px;
+    }
+
+    .ListInvestorsList ul li {
+        width: 50%;
+    }
+
+    .ListInvestorsList ul li img {
+        width: 70%;
+    }
+
+    .ListInvestorsList ul li.first {
+        text-align: left;
+    }
+
+    .ListInvestorsList ul li.second {
+        text-align: right;
+    }
+
+    .ListInvestorsList ul li.third {
+        text-align: left;
+    }
+
+    .ListInvestorsList ul li.last {
+        text-align: right;
+    }
+}
+
+@media (max-width: 375px) {
+    .modal-content {
+        background: #1E1F35;
+        padding: 30px 10px 5px;
+    }
+
+    .dextools_V2_hero_Left h2 {
+        font-size: 30px;
+    }
+
+    .dextools_V2_hero_Left p {
+        font-size: 14px;
+    }
+
+    .TokenomicsListSect ul {
+        margin-right: 40px;
+    }
+
+    .Multi_Chain_Support_right_list ul {
+        margin-right: 25px;
+    }
+
+    .Multi_Chain_Support_right_list ul li {
+        font-size: 12px;
+    }
+
+    .ChooseNetwork_Sect ul li button span {
+        margin-right: 11px;
+        min-width: 20px;
+        max-width: 20px;
+    }
+
+    .V1_tokenomics_content_ListProgress1 {
+        width: 80px;
+    }
+
+    .V1_tokenomics_content_ListProgress2 {
+        width: 100px;
+    }
+
+    .V1_tokenomics_content_ListProgress3 {
+        width: 115px;
+    }
+
+    .V1_tokenomics_content_ListProgress4 {
+        width: 130px;
+    }
+
+    .V1_tokenomics_content_ListProgress5 {
+        width: 150px;
+    }
+
+    .V1_tokenomics_content_ListProgress6 {
+        width: 170px;
+    }
+
+    .V1_tokenomics_content_ListProgress7 {
+        width: 220px;
+    }
+
+    .ProjectClasicSlider_ImgAndTitleSect img {
+        max-width: 60px;
+    }
+
+    .ProjectClasicSlider_TextSect h3 {
+        margin-bottom: 0;
+    }
+
+    .ProjectClasicSlider_TextSect h3 a {
+        font-size: 19px;
+    }
+
+    .ProjectClasicSlider_TextSect p {
+        font-size: 12px;
+    }
+
+    .ProjectClasicSlider_RiseCeontent h2, .Access_AllocationText h2 {
+        font-size: 13px;
+    }
+
+    .ProjectClasicSlider_RiseCeontent span, .Access_AllocationText span {
+        font-size: 11px;
+    }
+
+    .ProjectClasicSlider_RightTimer .price-counter .timer ul li {
+        font-size: 25px;
+    }
+
+    .Project_clasic_2_ContainerLeft {
+        min-height: 250px;
+    }
+
+    .ProjectClasic2_Timer {
+        width: 160px;
+        background-position: center right;
+        top: 20px;
+    }
+
+    .ProjectClasic2_Timer .price-counter .timer ul {
+        margin-left: 10px;
+        margin-top: 10px;
+        max-width: 120px;
+    }
+
+    .Project_clasic_2_LeftContentImg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .Access_Allocation_ParticipantsSect ul li span {
+        font-size: 12px;
+        line-height: 158%;
+    }
+
+    .Access_Allocation_ParticipantsSect ul li p {
+        font-size: 15px;
+        line-height: 158%;
+    }
+
+    .TotalRaisedProgressHeadings h3, .TotalRaisedProgressHeadings p {
+        font-size: 10px;
+        line-height: 158%;
+    }
+
+    .TotalRaisedProgressBg {
+        height: 20px;
+    }
+
+    .Project_clasic_2Container_RightHeadings h2 a {
+        font-size: 18px;
+    }
+
+    .Project_clasic_2Container_RightHeadings p {
+        font-size: 12px;
+    }
+
+    .TotalRaisedProgressSaleAirdropSect p {
+        font-size: 10px;
+    }
+
+    .Project_clasic_2Container_RightSect {
+        margin-top: 15px;
+    }
+
+    .details_project_name h2 a {
+        font-size: 22px;
+    }
+
+    .project_details_left_timer {
+        width: 220px;
+        height: 40px;
+    }
+
+    .project_details_left_timer .price-counter ul {
+        width: max-content;
+        padding-top: 2px;
+    }
+
+    .project_details_left_timer .price-counter ul li {
+        font-size: 16px;
+    }
+
+    .project_details_left_timer .price-counter ul li span {
+        font-size: 9px;
+    }
+
+    .project_details_left_section .ChainImg {
+        width: 30px;
+    }
+
+
+}
+
+@media (max-width: 360px) {
+    .forgetPassBtnSect {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .forgetPassBtnSect .ForgetPass a {
+        margin-left: 25px;
+        margin-top: 16px;
+    }
+
+    .SignUp_SignIn_Form h4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dextools_V2_hero_Left h2 {
+        font-size: 27px;
+    }
+
+    .dextools_V2_hero_Btns .VIEW_Projects_Btn, .dextools_V2_hero_Btns .Apply_Project_Btn {
+        width: 130px;
+    }
+
+    .dextools_V2_hero_Btns .VIEW_Projects_Btn .btn-text, .dextools_V2_hero_Btns .Apply_Project_Btn .btn-text {
+        font-size: 12px;
+    }
+
+    .TokenomicsContentsLeft h3 {
+        font-size: 20px;
+    }
+
+    .ConnectWallet_Card_Headings h2 {
+        font-size: 28px;
+    }
+
+    .Article_Details2 h4 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+
+    .FAQ_Screen_Tab {
+        padding: 34px 30px;
+    }
+
+    .ProjectSammeryTabsSect button a {
+        font-size: 14px;
+    }
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(115deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 30px;
+}
